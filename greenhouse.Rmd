@@ -47,5 +47,9 @@ suppliers2022 <- read_excel("2022_data_summary_spreadsheets/ghgp_data_by_year_20
 
 glimpse(suppliers2022)
 ```
-
+```{r}
+md_suppliers2022 <- suppliers2022 |> 
+  clean_names() |> 
+  filter(str_detect(state, "MD"))
+```
 
