@@ -25,10 +25,10 @@ Deliverable 2:
 Loads and cleans the core data set to prepare for analysis. 
 
 Shows basic exploratory analysis to demonstrate an understanding of the dataset, including the number of rows and columns, any obvious limitations or flaws and any reasons why it might not be able to answer the questions you've posed last week.
-
-
+-- We have loaded national and state data from EPA and census data. Based on our questions, we believe we have the data needed. We also may be interested in exploring additonal features of the FLIGHT dashboard.
 
 Describe the limits of the data in terms of timeframe, what is and is not included and any codes or other information you'd need to find definitions for, and what you've done to better define it.
+-- We found a good glossary (https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator) that translates the amount of emissions into real world effects.
 
 ## Load libraries and establish settings
 
@@ -52,7 +52,7 @@ md_emissions2022 <- read_excel("data/md_emissions_2022.xls", skip = 5)
 glimpse(md_emissions2022)
 
 #this is getting the data from the Census API file for median income from 2021 by County in the state of Maryland.
-census_api_key("")
+census_api_key("77872777955b38b9334cbbae8eea25f316159387")
 
 md_county_income <- get_acs(geography = "county",
               variables = c(medincome = "B19013_001"),
@@ -66,9 +66,17 @@ md_county_income <- get_acs(geography = "county",
 
 ```
 ```{r}
+#to view largest to smallest quantity
 md_emissions2022 |> 
   clean_names() |> 
   rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |> 
   arrange(desc(ghg_quantity))
+```
+
+```{r}
+#to compare Md and the rest of the nation
+#read in summary file from EPA
+national_emissions2022 <- read_excel("2022_data_summary_spreadsheets/ghgp_data_by_year_2022.xlsx", sheet = "Direct Emitters", skip = 3) 
+glimpse(national_emissions2022)
 ```
 
