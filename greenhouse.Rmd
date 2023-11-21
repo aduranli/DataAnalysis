@@ -105,6 +105,7 @@ total_emissions_per_state <- national_emissions2022 %>%
 ```
 
 2. What are the locations of top greenhouse gas emitters in Maryland?
+There were 52 total facilities emitting greenhouse gas in 2022.
 The top three GHG emitters are "Brandon Shores LLC", "LEHIGH CEMENT COMPANY LLC", and "Keys Energy Center" but a couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter.
 
 ```{r}
@@ -140,9 +141,35 @@ ggplot() +
 
 3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
 
+```{r}
+#Need help figuring out how to make the excel spreadsheet download
+```
+
+Alt 3. How have emissions in Maryland changed in the past decade?
+There were 70 total facilities emitting greenhouse gas in 2012.
+The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point. University of Maryland was 63rd. In 2022, it climbed to number 18 out of 50.
+
+
+```{r}
+#filtering by quantity
+md_emissions2012 <- read_excel("data/alldata.xls", sheet = "2012", skip = 5) 
+glimpse(md_emissions2012)
+
+md_emissions2012 |>
+    clean_names() |> 
+  rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |> 
+  arrange(desc(ghg_quantity))
+```
+```{r}
+
+```
 
 
 4. What are the demographics (median income, race) in areas with the most greenhouse emissions?
+
+```{r}
+
+```
 
 
 

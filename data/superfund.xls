@@ -1,0 +1,5329 @@
+
+
+<table width="100%" border="1" cellspacing="1" cellpadding="1">
+	<tr width="100%">
+		<td align="left" width="100%">
+			SEMS Public User Database - Site Search Results
+		</td>
+	</tr>
+    <tr width="100%">
+		<td align="center" width = "100%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="left">
+			
+			Results as of: November 21, 2023 - 05:31:33 PM 
+		</td>
+	</tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr>
+		<td align="left" valign="top"><br />Found <strong>119</strong> site(s) that match below search criteria:</td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<TD VALIGN="TOP">
+		
+			  <strong>Search Criteria:</strong>
+			 <table width="100%" border="0" summary="">
+			<tr>
+				<td align="left" width="37%" valign="top" scope="row" >
+					Active, Archived, or All :
+				</td>
+				<td width="63%" valign="top">
+					<strong><em>Active</em></strong>&nbsp;
+					<!--<em><a href="JavaScript: PopupGlossary2('ActiveArchive')">
+						What are active and archived sites?</a></em>-->
+				</td>
+			</tr>
+
+	
+  		<tr><td valign="top" align="left" width="37%" scope="row" >State:</td>
+    	<td valign="top" align="left" width="63%"><em>Maryland</em></td></tr>
+	
+</table>
+    	
+
+		</td></tr>
+	<tr>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table border="1" cellspacing="1" cellpadding="1">
+				<tr >
+			      <th>EPA ID</th>
+        		  <th>Site Name</th>
+        		  <th>City</th>
+     			  <th>County</th>
+			      <th >State</th>
+			   	  <th>Street Address</th>
+			   	  <th>Zip Code</th>
+			   	  <th>Region</th>
+			   	  <th>NPL Status</th>
+			   	  <th>Partial NPL Deletion</th>
+			   	  <th>Superfund Alternative Approach</th>
+			   	  <th>Site-wide Ready for Anticipated Use</th>
+			   	  <th>Human Exposure Under Control</th>
+			   	  <th>Groundwater Migration Under Control</th>
+			   	  <th>Construction Complete</th>
+			   	  <th>Construction Completion Date</th>
+			   	  <th>Non-NPL Status Category</th>
+			   	  <th>Non-NPL Status Subcategory</th>
+				  <th>Non-NPL Status</th>
+			   	  <th>Site Status</th>
+			   	  <th>Site Type</th>
+			   	  <th>Site Type Subcategory</th>
+			   	  <th>Federal Agency</th>
+			   	  <th>Native American Interest (NAI)</th>
+			   	  <th>Indian Entity (NAI Status)</th>
+			   	  <th>HRS Score</th>
+			   	  <th>Federal Facility Indicator</th>
+			   	  <th>Alias/Alternative Site Name</th>
+			   	  <th>Non-NPL Status Date</th>
+				  <th>Superfund Site Profile Page URL</th>
+				  <th>RCRA Handler ID - RCRA Handler Name</th>
+   		 	</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305351</td>
+			        <td VALIGN="TOP" >2021 INAUGURAL NSSE EVENT</td>
+			        <td VALIGN="TOP" >FT MEADE</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >701 MAPES RD</td>
+                    <td valign="top" >&nbsp;20755&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >08/25/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980918387</td>
+			        <td VALIGN="TOP" >68TH STREET DUMP/INDUSTRIAL ENTERPRISES</td>
+			        <td VALIGN="TOP" >ROSEDALE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >68TH STREET</td>
+                    <td valign="top" >&nbsp;21237&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Proposed NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under EPA Enforcement Authority</td>
+					<td valign="top" >Remedial Activities Under EPA Enforcement</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management, Waste Management</td>
+					<td valign="top" >Co-disposal landfill (municipal and industrial), Industrial waste facility (non-generator)</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >No</td>
+					<td valign="top" >68TH STREET DUMP, 68TH STREET DUMP/INDUSTRIAL ENTERPRISES, 68TH STREET DUMP/INDUSTRIAL ENTERPRISES, 68TH STREET LANDFILL SITE, COLGATE PAY DUMP, Industrial Enterprises Site, R.M. WINSTEAD</td>
+					<td valign="top" >04/30/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="68thstreet"'>
+					www.epa.gov/superfund/68thstreet
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD2210020036</td>
+			        <td VALIGN="TOP" >ABERDEEN PROVING GROUND (EDGEWOOD AREA)</td>
+			        <td VALIGN="TOP" >EDGEWOOD</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OFF RTE 40</td>
+                    <td valign="top" >&nbsp;21010&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Ordnance production</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >53.57</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >ABERDEEN PROVING GROUND (EDGEWOOD AREA), ABERDEEN PROVING GROUND (EDGEWOOD AREA), ABERDEEN PROVING GROUND (EDGEWOOD AREA), US COAST GUARD - UPPER CHESAPEAKE RANGE, US COAST GUARD-POOLE ISLAND RANGE, USA ABERDEEN PROVING GROUND, USA EDGEWOOD ARSENAL</td>
+					<td valign="top" >01/25/1980</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="aberdeenprovingground-edgewoodarea"'>
+					www.epa.gov/superfund/aberdeenprovingground-edgewoodarea
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD3210021355</td>
+			        <td VALIGN="TOP" >ABERDEEN PROVING GROUND (MICHAELSVILLE LANDFILL)</td>
+			        <td VALIGN="TOP" >ABERDEEN</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OFF RTE 40</td>
+                    <td valign="top" >&nbsp;21005&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >06/11/2001</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Industrial waste landfill</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >31.09</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >ABERDEEN PROVING GROUND (MICHAELSVILLE LANDFILL), ABERDEEN PROVING GROUND (MICHAESLVILLE L, ABERDEEN PROVING GROUND(MICHAELSVILLE LF, ABERDEEN PROVING GROUND(MICHAELSVILLE LF, US COAST GUARD - POOLE ISLAND RANGE, US COAST GUARD - UPPER CHESAPEAKE RANGE, USA EDGEWOOD ARSENAL, USA EDGEWOOD ARSENAL</td>
+					<td valign="top" >05/01/1981</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="aberdeenprovingground-michaelsvillelandfill"'>
+					www.epa.gov/superfund/aberdeenprovingground-michaelsvillelandfill
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303903</td>
+			        <td VALIGN="TOP" >AMERICAN PLATING</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4000 - 4004 E. MONUMENT STREET</td>
+                    <td valign="top" >&nbsp;21205&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/27/2016</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0570024000</td>
+			        <td VALIGN="TOP" >ANDREWS AIR FORCE BASE</td>
+			        <td VALIGN="TOP" >ANDREWS AIR FORCE BASE</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >ALLENTOWN ROAD</td>
+                    <td valign="top" >&nbsp;20762&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Transportation (e.g., railroad yards, airport, barge docking site)</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >ANDREWS AIR FORCE BASE, ANDREWS AIR FORCE BASE, NAVAL AIR TEST CENTER, USAF ANDREWS AIR FORCE BASE, USAF SANITARY LANDFILL #1, USAF SANITARY LANDFILL #2</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="andrewsafb"'>
+					www.epa.gov/superfund/andrewsafb
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980705057</td>
+			        <td VALIGN="TOP" >ANNE ARUNDEL COUNTY LANDFILL</td>
+			        <td VALIGN="TOP" >GLEN BURNIE</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >DOVER ST</td>
+                    <td valign="top" >&nbsp;21061&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Withdrawn</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >HRS Package Completed - Further Evaluation Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management, Waste Management, Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump, Multiple, Municipal solid waste landfill</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >ANNE ARUNDEL CO LANDFILL, ANNE ARUNDEL COUNTY LANDFILL, GLEN BURNIE LANDFILL, SMUCKS DUMP</td>
+					<td valign="top" >10/14/1992</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304050</td>
+			        <td VALIGN="TOP" >ARUNDEL CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >6405 WINDSOR MILL ROAD</td>
+                    <td valign="top" >&nbsp;21207&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/10/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303894</td>
+			        <td VALIGN="TOP" >ATHENS CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1726 TAYLOR AVENUE</td>
+                    <td valign="top" >&nbsp;21234&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >06/25/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304666</td>
+			        <td VALIGN="TOP" >ATLANTIC CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >718 WALKER AVE</td>
+                    <td valign="top" >&nbsp;21212&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/29/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306774</td>
+			        <td VALIGN="TOP" >AVENUE CLEANERS</td>
+			        <td VALIGN="TOP" >WESTMINSTER</td>
+				    <td VALIGN="TOP" >CARROLL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >46 1/2 PENNSYLVANIA AVE</td>
+                    <td valign="top" >&nbsp;21157&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Dry-Cleaning Operations, Product storage/distribution</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >01/21/2016</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MDD049928047 - AVENUE TAILORS & CLEANERS</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306775</td>
+			        <td VALIGN="TOP" >BALTIMORE LUMBER COMPANY BOZORTH JOB</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2200 EDGEWATER STREET</td>
+                    <td valign="top" >&nbsp;21224&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/08/2015</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD985422518</td>
+			        <td VALIGN="TOP" >BALTIMORE VETERANS AFFAIRS MEDICAL CENTER (VAMC) 512</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >10 NORTH GREENE STREET</td>
+                    <td valign="top" >&nbsp;21201&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Department of Veterans Affairs</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >01/21/2022</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MDD985422518 - BALTIMORE VAMC 512</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306784</td>
+			        <td VALIGN="TOP" >BARE HILLS QUARRIES AND PITS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >NEAR INTERSECTION OF OLD PIMLICO AND </td>
+                    <td valign="top" >&nbsp;21209&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/17/2013</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD985366541</td>
+			        <td VALIGN="TOP" >BAUER FARM</td>
+			        <td VALIGN="TOP" >EDGEMERE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OFF NORTH PT RD & BAUER'S FARM RD</td>
+                    <td valign="top" >&nbsp;21219&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Agricultural (e.g., grain elevator), Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >03/15/2023</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305762</td>
+			        <td VALIGN="TOP" >BEAR CREEK SEDIMENTS</td>
+			        <td VALIGN="TOP" >SPARROWS POINT</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >Northwest off-shore sediments at Sparrows Point, </td>
+                    <td valign="top" >&nbsp;21219&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >
+						
+							Not a Groundwater Site
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Other, Work Center</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >48.02</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/09/2021</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="bearcreek"'>
+					www.epa.gov/superfund/bearcreek
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0001095439</td>
+			        <td VALIGN="TOP" >BEAVERDAM CREEK PCB</td>
+			        <td VALIGN="TOP" >LANDOVER</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >LOWER BEAVERDAM CREEK</td>
+                    <td valign="top" >&nbsp;20743&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >ESI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >03/23/2022</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0120508940</td>
+			        <td VALIGN="TOP" >BELTSVILLE AGRICULTURAL RESEARCH CENTER (USDA)</td>
+			        <td VALIGN="TOP" >BELTSVILLE</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >BEAVERDAM AND SHEEP ROADS</td>
+                    <td valign="top" >&nbsp;20705&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Research, development, and testing facility</td>
+					<td valign="top" >Department of Agriculture</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >BELTSVILLE AGRICULTURAL CENTER, BELTSVILLE AGRICULTURAL RESEARCH (USDA), BELTSVILLE AGRICULTURAL RESEARCH (USDA), BELTSVILLE AGRICULTURAL RESEARCH CENTER (USDA), FDA RESEARCH FAC (TENANT), FDA VET MED (TENANT)</td>
+					<td valign="top" >01/01/1980</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="beltsville"'>
+					www.epa.gov/superfund/beltsville
+					</td>
+					<td valign="top" >MD2120500119 - BELTSVILLE ARGIC RES CENTER W; MD6120500941 - U S BELTSVILLE FACILITY/CMREC</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD985372135</td>
+			        <td VALIGN="TOP" >BLACK & DECKER</td>
+			        <td VALIGN="TOP" >HAMPSTEAD</td>
+				    <td VALIGN="TOP" >CARROLL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >10 NORTH PARK DRIVE</td>
+                    <td valign="top" >&nbsp;21074&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >BLACK & DECKER</td>
+					<td valign="top" >03/03/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0210021002</td>
+			        <td VALIGN="TOP" >BLOSSOM POINT FIELD TEST AREA</td>
+			        <td VALIGN="TOP" >LA PLATA</td>
+				    <td VALIGN="TOP" >CHARLES</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >CEDAR POINT NECK</td>
+                    <td valign="top" >&nbsp;20646&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >DIAMOND LABS TEST AREA</td>
+					<td valign="top" >09/12/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981108202</td>
+			        <td VALIGN="TOP" >BRANDYWINE - LAUNCH</td>
+			        <td VALIGN="TOP" >UPPER MARLBORO</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >CANDY HILL RD</td>
+                    <td valign="top" >&nbsp;20772&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Site Inspection Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >UPPERMARLBORO-NIKE</td>
+					<td valign="top" >11/08/2006</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD9570024803</td>
+			        <td VALIGN="TOP" >BRANDYWINE DRMO</td>
+			        <td VALIGN="TOP" >BRANDYWINE</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >BRANDYWINE ROAD AND CHERRY TREE CROSSING</td>
+                    <td valign="top" >&nbsp;20613&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50.15</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >BRANDYWINE DEF. PROPERTY DISPOSAL OFFICE, BRANDYWINE DRMO, BRANDYWINE DRMO, BRANDYWINE DRMO SALVAGE YARD</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="brandywine"'>
+					www.epa.gov/superfund/brandywine
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303281</td>
+			        <td VALIGN="TOP" >BUGLE RENTAL</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1501 N CHESTER STREET</td>
+                    <td valign="top" >&nbsp;21213&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >01/29/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980504195</td>
+			        <td VALIGN="TOP" >BUSH VALLEY LANDFILL</td>
+			        <td VALIGN="TOP" >ABINGDON</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >BUSH RD POB 246</td>
+                    <td valign="top" >&nbsp;21009&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >08/02/2001</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Co-disposal landfill (municipal and industrial)</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >40.3</td>
+					<td valign="top" >No</td>
+					<td valign="top" >BUSH VALLEY LANDFILL, BUSH VALLEY LANDFILL, HARRIS LANDFILL</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="bushvalley"'>
+					www.epa.gov/superfund/bushvalley
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD003061447</td>
+			        <td VALIGN="TOP" >CENTRAL CHEMICAL (HAGERSTOWN)</td>
+			        <td VALIGN="TOP" >HAGERSTOWN</td>
+				    <td VALIGN="TOP" >WASHINGTON</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >MITCHELL AVE</td>
+                    <td valign="top" >&nbsp;21742&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Chemicals and allied products</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >No</td>
+					<td valign="top" >CENTRAL CHEMICAL (HAGERSTOWN), CENTRAL CHEMICAL (HAGERSTOWN), CENTRAL CHEMICAL CORP., CENTRAL CHEMICAL-HAGERSTOWN</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="centralchemical"'>
+					www.epa.gov/superfund/centralchemical
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980555478</td>
+			        <td VALIGN="TOP" >CHEMICAL METALS INDUSTRIES, INC.</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2001 & 2103 ANNAPOLIS RD</td>
+                    <td valign="top" >&nbsp;21230&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Deleted NPL</td>
+                    <td valign="top" >Yes </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >12/30/1982</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance, Multiple, Other, Recycling</td>
+					<td valign="top" >Batteries/scrap metals/secondary smelting/precious metal recovery, Chemicals and allied products, Multiple, Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >CHEMICAL METALS, CHEMICAL METALS INDUSTRIES, INC., CMI, US EPA REGION 3 CHEMICAL METALS SITE</td>
+					<td valign="top" >09/01/1981</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="chemicalmetals"'>
+					www.epa.gov/superfund/chemicalmetals
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306175</td>
+			        <td VALIGN="TOP" >CHESAPEAKE AIRWAYS SITE</td>
+			        <td VALIGN="TOP" >SALISBURY</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >5585 AIRPORT TERMINAL ROAD</td>
+                    <td valign="top" >&nbsp;21804-1599&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Status not specified</td>
+					<td valign="top" >Status Not Specified</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >02/10/2006</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981109325</td>
+			        <td VALIGN="TOP" >CHESTERTOWN GAS CO</td>
+			        <td VALIGN="TOP" >CHESTERTOWN</td>
+				    <td VALIGN="TOP" >KENT</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >W HIGH ST</td>
+                    <td valign="top" >&nbsp;21620&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Coal gasification</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/31/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304667</td>
+			        <td VALIGN="TOP" >CLEAN BEST CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMJORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4414 EDMONSON AVE</td>
+                    <td valign="top" >&nbsp;21229&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >06/08/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305671</td>
+			        <td VALIGN="TOP" >COLDSPRING LANE LANDFILL</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2221 W. COLDSPRING LANE</td>
+                    <td valign="top" >&nbsp;21211&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Municipal solid waste landfill</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/18/2002</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980918379</td>
+			        <td VALIGN="TOP" >COLGATE PAY DUMP</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >6700 PULASKI HGY</td>
+                    <td valign="top" >&nbsp;21237&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Part of NPL Site</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306907</td>
+			        <td VALIGN="TOP" >CROWSON AVENUE MERCURY SPILL</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4908 CROWSON AVENUE</td>
+                    <td valign="top" >&nbsp;21212&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Residential</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >01/04/2013</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD4690307844</td>
+			        <td VALIGN="TOP" >CURTIS BAY COAST GUARD YARD</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2401 HAWKINS POINT RD</td>
+                    <td valign="top" >&nbsp;21226&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >08/26/2013</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Trucks/ships/trains/aircraft and related components</td>
+					<td valign="top" >Department of Homeland Security</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >CURTIS BAY COAST GUARD YARD, HAWKINS POINT (FUDS), HAWKINS POINT TERMINAL (FUDS), US COAST GUARD, US COAST GUARD YARD - HAWKINS POINT ROAD</td>
+					<td valign="top" >04/09/1991</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="curtisbay"'>
+					www.epa.gov/superfund/curtisbay
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD985366756</td>
+			        <td VALIGN="TOP" >DWYER PROPERTY GROUND WATER PLUME</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >NE OF INT. OF MD RTE 545 AND MD RTE 279</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Ordnance production</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >No</td>
+					<td valign="top" >DWYER PROPERTY, DWYER PROPERTY GROUND WATER PLUME</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="dwyer"'>
+					www.epa.gov/superfund/dwyer
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981040207</td>
+			        <td VALIGN="TOP" >EASTERN MD WOOD TREATING CO</td>
+			        <td VALIGN="TOP" >FEDERALSBURG</td>
+				    <td VALIGN="TOP" >DORCHESTER</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >CLARKS CANNING HOUSE RD</td>
+                    <td valign="top" >&nbsp;21632&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Lumber and wood products/wood preserving/treatment</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >EASTERN MARYLAND WOOD TREATMENT *, EASTERN MD WOOD TREATING CO</td>
+					<td valign="top" >09/24/2001</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305289</td>
+			        <td VALIGN="TOP" >EGIDE USA ER</td>
+			        <td VALIGN="TOP" >CAMBRIDGE</td>
+				    <td VALIGN="TOP" >DORCHESTER</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4 WASHINGTON ST.</td>
+                    <td valign="top" >&nbsp;21613&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/06/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306757</td>
+			        <td VALIGN="TOP" >ELITE/FREE STATE/STAR CLEANERS</td>
+			        <td VALIGN="TOP" >DELMAR</td>
+				    <td VALIGN="TOP" >WICOMICO</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >3 SOUTH FIRST STREET</td>
+                    <td valign="top" >&nbsp;21875&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Waste Management</td>
+					<td valign="top" >Dry-Cleaning Operations, Illegal disposal/open dump</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/02/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306146</td>
+			        <td VALIGN="TOP" >ELKTON FARM FIREHOLE</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >183 ZEITLER ROAD</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Referred to Removal - NFRAP</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >THIOKOL MOTOR RECOVERY AREA</td>
+					<td valign="top" >08/04/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306101</td>
+			        <td VALIGN="TOP" >ELKTON SPARKLER</td>
+			        <td VALIGN="TOP" >NORTH EAST</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >22 SPARKLER LANE</td>
+                    <td valign="top" >&nbsp;21901&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >06/05/2007</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000302404</td>
+			        <td VALIGN="TOP" >EXCELSIOR CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4216 EDMONSON AVENUE</td>
+                    <td valign="top" >&nbsp;21220&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Referred to Removal - NFRAP</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >EXCELSIOR CLEANERS, EXECELSIOR CLEANERS, EXECELSIOR CLEANERS</td>
+					<td valign="top" >05/08/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD041956194</td>
+			        <td VALIGN="TOP" >FAIRCHILD REPUBLIC CO PLANT 11</td>
+			        <td VALIGN="TOP" >HAGERSTOWN</td>
+				    <td VALIGN="TOP" >WASHINGTON</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >SHOWALTER RD</td>
+                    <td valign="top" >&nbsp;21742&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Referred to Removal - Further Assessment Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Trucks/ships/trains/aircraft and related components</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >AIR FORCE PLANT NO. 11 (FUDS), FAIRCHILD LAND DISPOSAL, FAIRCHILD REPUBLIC - ROHR SITE *, FAIRCHILD REPUBLIC CO PLANT 12</td>
+					<td valign="top" >08/11/2021</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304261</td>
+			        <td VALIGN="TOP" >FEDERAL STREET MERCURY</td>
+			        <td VALIGN="TOP" >ROCKVILLE</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4201 FEDERAL STREET</td>
+                    <td valign="top" >&nbsp;20853&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Residential</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/11/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303969</td>
+			        <td VALIGN="TOP" >FLETC-DEPARTMENT OF HOMELAND SECURITY</td>
+			        <td VALIGN="TOP" >CHELTHENHAM</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >9000 COMMO ROAD</td>
+                    <td valign="top" >&nbsp;20623&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" >Department of Homeland Security</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/31/2014</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305688</td>
+			        <td VALIGN="TOP" >FORMER GARDEN STATE TANNERY (GST) AUTOLEATHER, INC.</td>
+			        <td VALIGN="TOP" >WILLIAMSPORT</td>
+				    <td VALIGN="TOP" >WASHINGTON</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >15717 Clear Spring Road</td>
+                    <td valign="top" >&nbsp;21795&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance, Other</td>
+					<td valign="top" >Other, Tanneries</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >GARDEN STATE TANNERY, GARDEN STREET TANNERY, GARDEN STREET TANNERY INC GST, W.D. BYRON & SONS, INC.</td>
+					<td valign="top" >04/06/2023</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306613</td>
+			        <td VALIGN="TOP" >FORT DETRICK AREA A</td>
+			        <td VALIGN="TOP" >FREDERICK</td>
+				    <td VALIGN="TOP" >FREDERICK</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >ROSEMONT AVENUE</td>
+                    <td valign="top" >&nbsp;21701&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/12/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD985397249</td>
+			        <td VALIGN="TOP" >FORT DETRICK AREA B GROUND WATER</td>
+			        <td VALIGN="TOP" >FORT DETRICK</td>
+				    <td VALIGN="TOP" >FREDERICK</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >810 SCHREIDER STREET</td>
+                    <td valign="top" >&nbsp;21702&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >
+						
+							No
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Industrial waste landfill</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >49.52</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >FORT DETRICK AREA B, FORT DETRICK AREA B GROUND WATER, FREDERICK CANCER RESEARCH CENTER, USA FORT DETRICK, USA FORT DETRICK</td>
+					<td valign="top" >12/03/1991</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="ftdetrick"'>
+					www.epa.gov/superfund/ftdetrick
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305706</td>
+			        <td VALIGN="TOP" >FORT FOOTE</td>
+			        <td VALIGN="TOP" >FORT WASHINGTON</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >8900 FORT FOOTE ROAD</td>
+                    <td valign="top" >&nbsp;20744&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/12/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD9210020567</td>
+			        <td VALIGN="TOP" >FORT GEORGE G. MEADE</td>
+			        <td VALIGN="TOP" >ODENTON</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >MARYLAND ROUTE 175</td>
+                    <td valign="top" >&nbsp;21113&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >Yes </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Industrial waste facility (non-generator)</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >FORT GEORGE G. MEADE, FORT GEORGE G. MEADE, FORT GEORGE G. MEADE *, USA 144TH ORDINANCE DETACHMENT, USA BLDG T37 SUB STA 3, USA BUILDING 6527, USA FORT GEORGE MEADE, USA LUMBER STORAGE YARD, USA TRAINING AREA T38</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="ftmeade"'>
+					www.epa.gov/superfund/ftmeade
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0000795211</td>
+			        <td VALIGN="TOP" >FORT RITCHIE</td>
+			        <td VALIGN="TOP" >CASCADE</td>
+				    <td VALIGN="TOP" >WASHINGTON</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >STATE HIGHWAY 550</td>
+                    <td valign="top" >&nbsp;21719&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under Other Federal Agency</td>
+					<td valign="top" >Other Cleanup Activity: Federal Facility-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >FORT RICHIE *, US ARMY - FORT RICHIE, US ARMY - FORT RITCHIE</td>
+					<td valign="top" >05/08/2009</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MD8210020758 - FORT RITCHIE</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306575</td>
+			        <td VALIGN="TOP" >GE RAILCAR SITE</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >ZEITLER AND HOPE LANES</td>
+                    <td valign="top" >&nbsp;21922&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under EPA Enforcement Authority</td>
+					<td valign="top" >Remedial Activities Under EPA Enforcement</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Transportation (e.g., railroad yards, airport, barge docking site)</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/08/2009</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303890</td>
+			        <td VALIGN="TOP" >GLORIA/LORD BALTIMORE CLEANERS (NOW BELLONA CLEANERS)</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >5718 YORK ROAD</td>
+                    <td valign="top" >&nbsp;21212&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >03/08/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000302984</td>
+			        <td VALIGN="TOP" >HAGERSTOWN AIRCRAFT SERVICES</td>
+			        <td VALIGN="TOP" >HAGERSTOWN</td>
+				    <td VALIGN="TOP" >WASHINGTON</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >14235 OAK SPRINGS ROAD</td>
+                    <td valign="top" >&nbsp;21742&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance, Other</td>
+					<td valign="top" >Other, Trucks/ships/trains/aircraft and related components</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >11/25/2013</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980551105</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE DUMP</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >QUARRY RD</td>
+                    <td valign="top" >&nbsp;21078&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/13/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDSFN0305418</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE FIREWORKS SITE</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >CHAPEL ROAD</td>
+                    <td valign="top" >&nbsp;21078&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >08/20/2001</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980693857</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE PLT</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >200 BLOCK JUNIATA STREET</td>
+                    <td valign="top" >&nbsp;21078&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >HAVRE DE GRACE PLT</td>
+					<td valign="top" >07/02/2002</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD7170024684</td>
+			        <td VALIGN="TOP" >INDIAN HEAD NAVAL SURFACE WARFARE CENTER</td>
+			        <td VALIGN="TOP" >INDIAN HEAD</td>
+				    <td VALIGN="TOP" >CHARLES</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >201 INDIAN HEAD HIGHWAY</td>
+                    <td valign="top" >&nbsp;20640&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Ordnance production</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >INDIAN HEAD NAVAL SURFACE WARFARE CENTER, INDIAN HEAD NAVAL SURFACE WARFARE CENTER, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL ORDNANCE STATION - INDIAN HEAD, NAVAL SURFACE WARFARE CTR-INDIAN HD DIV, USN NAVAL ORDNANCE STATION - 1006</td>
+					<td valign="top" >01/01/1980</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="indianhead"'>
+					www.epa.gov/superfund/indianhead
+					</td>
+					<td valign="top" >MD4170024109 - NAVAL SUPPORT FACILITY INDIAN HEAD; MD4170090001 - NAVAL SUPPORT FACILITY INDIAN HEAD, STUMP NECK ANNEX</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000300433</td>
+			        <td VALIGN="TOP" >ISAAC COHEN & SONS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >419 W BALTIMORE STREET</td>
+                    <td valign="top" >&nbsp;21205&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/08/2015</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305893</td>
+			        <td VALIGN="TOP" >JONES FALLS STREAM INCIDENT</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1900 BRAND AVE</td>
+                    <td valign="top" >&nbsp;21209&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/13/2021</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980923783</td>
+			        <td VALIGN="TOP" >KANE & LOMBARD STREET DRUMS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >KANE & LOMBARD STS</td>
+                    <td valign="top" >&nbsp;21224&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management, Waste Management, Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump, Industrial waste facility (non-generator), Multiple</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >30.15</td>
+					<td valign="top" >No</td>
+					<td valign="top" >KANE & LOMBARD STREET DRUMS</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="kanelombard"'>
+					www.epa.gov/superfund/kanelombard
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD056506389</td>
+			        <td VALIGN="TOP" >KOPPERS CO SALISBURY</td>
+			        <td VALIGN="TOP" >SALISBURY</td>
+				    <td VALIGN="TOP" >WICOMICO</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >QUANTICO RD</td>
+                    <td valign="top" >&nbsp;21801&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >SALISBURY PLT</td>
+					<td valign="top" >09/03/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306793</td>
+			        <td VALIGN="TOP" >KROH'S CLEANERS</td>
+			        <td VALIGN="TOP" >BEL AIR</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >15 E. PENNSYLVANIA AVENUE</td>
+                    <td valign="top" >&nbsp;21014&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >KROH"S CLEANERS</td>
+					<td valign="top" >11/07/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980691588</td>
+			        <td VALIGN="TOP" >LIMESTONE ROAD</td>
+			        <td VALIGN="TOP" >CUMBERLAND</td>
+				    <td VALIGN="TOP" >ALLEGANY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >LIMESTONE RD OFF RTE 51</td>
+                    <td valign="top" >&nbsp;21502&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >09/28/2000</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >30.54</td>
+					<td valign="top" >No</td>
+					<td valign="top" >CUMBERLAND CEMENT & SUPPLY, DIGGS SANITATION, LIMESTONE ROAD, LIMESTONE ROAD SITE</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="limestone"'>
+					www.epa.gov/superfund/limestone
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305726</td>
+			        <td VALIGN="TOP" >LOWER HERRING RUN PARK</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >END OF ALRICKS WAY</td>
+                    <td valign="top" >&nbsp;21205&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Municipal solid waste landfill</td>
+					<td valign="top" >Environmental Protection Agency</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >11/01/2002</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD7570025901</td>
+			        <td VALIGN="TOP" >MARTIN'S STATE AIRPORT SITE II (ANG)</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >EASTERN AVE AND WILSON POINT RD</td>
+                    <td valign="top" >&nbsp;21220&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >AIR NATIONAL GUARD - MARTIN'S AIRPORT, MARTIN'S STATE AIRPORT SITE II, MARTIN'S STATE AIRPORT SITE II (ANG)</td>
+					<td valign="top" >04/06/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306172</td>
+			        <td VALIGN="TOP" >MARYLAND CORK CO., INC.</td>
+			        <td VALIGN="TOP" >ELKTON, MD 21922</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >TRIUMPH INDUSTRIAL PARK, PO BOX 126</td>
+                    <td valign="top" >&nbsp;21922&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance, Other</td>
+					<td valign="top" >Lumber and wood products/pulp and paper, Military/Other Ordinance</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >MARYLAND CORK CO., INC</td>
+					<td valign="top" >05/13/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306903</td>
+			        <td VALIGN="TOP" >MCSPADDEN CLEANERS</td>
+			        <td VALIGN="TOP" >HAVRE DE GRACE</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >358 PENNINGTON AVENUE</td>
+                    <td valign="top" >&nbsp;21078&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/24/2017</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD064882889</td>
+			        <td VALIGN="TOP" >MID-ATLANTIC WOOD PRESERVERS, INC.</td>
+			        <td VALIGN="TOP" >HARMANS</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >P O BOX 58 SHIPLEY AVE</td>
+                    <td valign="top" >&nbsp;21077&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Deleted NPL</td>
+                    <td valign="top" >Yes </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >09/23/1993</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Lumber and wood products/wood preserving/treatment</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >MID-ATLANTIC HARMANS WOOD TR FACTORY, MID-ATLANTIC WOOD PRESERVERS, MID-ATLANTIC WOOD PRESERVERS, INC, MID-ATLANTIC WOOD PRESERVERS, INC.</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="midatlanticwoodpreservers"'>
+					www.epa.gov/superfund/midatlanticwoodpreservers
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980705099</td>
+			        <td VALIGN="TOP" >MIDDLETOWN ROAD DUMP</td>
+			        <td VALIGN="TOP" >ANNAPOLIS</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >MIDDLETOWN RD</td>
+                    <td valign="top" >&nbsp;21401&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Deleted NPL</td>
+                    <td valign="top" >Yes </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >03/17/1986</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >DALE DICKERSON DUMP, MIDDLETOWN ROAD DUMP, MIDDLETOWN ROAD DUMP, MIDDLETOWN ROAD DUMP SITE</td>
+					<td valign="top" >03/01/1981</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="middletownroad"'>
+					www.epa.gov/superfund/middletownroad
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD053948188</td>
+			        <td VALIGN="TOP" >MILLER CHEMICAL & FERTILIZER CORP</td>
+			        <td VALIGN="TOP" >WHITEFORD</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >RTES 136 & 135</td>
+                    <td valign="top" >&nbsp;21160&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/18/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306788</td>
+			        <td VALIGN="TOP" >MODERN CLEANERS LEXINGTON PARK</td>
+			        <td VALIGN="TOP" >LEXINGTON PARK</td>
+				    <td VALIGN="TOP" >ST. MARY'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >21779E TULAGI PLACE</td>
+                    <td valign="top" >&nbsp;20653&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/08/2015</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306661</td>
+			        <td VALIGN="TOP" >MODERN IDEAL CLEANERS</td>
+			        <td VALIGN="TOP" >WESTMINSTER</td>
+				    <td VALIGN="TOP" >CARROLL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >223 E. GREEN STREET</td>
+                    <td valign="top" >&nbsp;21157&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/08/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306899</td>
+			        <td VALIGN="TOP" >MORRIS MILL TCE SITE</td>
+			        <td VALIGN="TOP" >SALISBURY</td>
+				    <td VALIGN="TOP" >WICOMICO</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >INT OF WEST CLEAR LAKE DRIVE</td>
+                    <td valign="top" >&nbsp;21804&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >11/01/2012</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303958</td>
+			        <td VALIGN="TOP" >NATIONAL SECURITY AGENCY</td>
+			        <td VALIGN="TOP" >COLUMBIA</td>
+				    <td VALIGN="TOP" >HOWARD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >RUMSEY RD B 2</td>
+                    <td valign="top" >&nbsp;21045&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/27/1991</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305841</td>
+			        <td VALIGN="TOP" >NAVAL RESEARCH EXPERIMENTAL STATION</td>
+			        <td VALIGN="TOP" >LA PLATA</td>
+				    <td VALIGN="TOP" >CHARLES</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >7425 BUMPY OAK RD.</td>
+                    <td valign="top" >&nbsp;20646-5630&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Status not specified</td>
+					<td valign="top" >Status Not Specified</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >NAVAL RESEARCH EXPERMINATAL STATION, RESEARCH EXPERIMENTAL STATION</td>
+					<td valign="top" >02/08/2002</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305785</td>
+			        <td VALIGN="TOP" >NEUTRON PRODUCTS, INC.</td>
+			        <td VALIGN="TOP" >DICKERSON</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >22301 MT. EPHRAIM ROAD</td>
+                    <td valign="top" >&nbsp;20842&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >03/03/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDSFN0305563</td>
+			        <td VALIGN="TOP" >NEW JERSEY FIREWORKS</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1726 OLD PHILADELPHIA ROAD</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Ordnance production</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >ROUTE 7 CHEM DUMP SITE</td>
+					<td valign="top" >11/20/2006</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304670</td>
+			        <td VALIGN="TOP" >NEW PARIS CLEANERS</td>
+			        <td VALIGN="TOP" >MIDDLE RIVER</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2101-2103 OLD OREMS ROAD</td>
+                    <td valign="top" >&nbsp;21220&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >PA Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/12/2016</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305861</td>
+			        <td VALIGN="TOP" >NGA - BETHESDA</td>
+			        <td VALIGN="TOP" >BETHESDA</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4600 SANGAMORE ROAD</td>
+                    <td valign="top" >&nbsp;20816&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >BROOKMONT DEFENSE MAPPING AGENCY, DEFENSE MAPPING SITE</td>
+					<td valign="top" >03/02/2017</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MD1210020037 - NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303960</td>
+			        <td VALIGN="TOP" >NSA (FANX I, II, III)</td>
+			        <td VALIGN="TOP" >LINTHICUM</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >ELKRIDGE LANDING</td>
+                    <td valign="top" >&nbsp;21090&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >02/05/1993</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD003060241</td>
+			        <td VALIGN="TOP" >OLIN CORP CURTIS BAY</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >5501 PENNINGTON AVE</td>
+                    <td valign="top" >&nbsp;21226&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >CURTIS BAY PLANT</td>
+					<td valign="top" >12/17/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD982364341</td>
+			        <td VALIGN="TOP" >ORDNANCE PRODUCTS, INC.</td>
+			        <td VALIGN="TOP" >NORTH EAST</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1079 MECHANICS VALLEY RD</td>
+                    <td valign="top" >&nbsp;21901-2507&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >06/19/2015</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Ordnance production</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >32.15</td>
+					<td valign="top" >No</td>
+					<td valign="top" >MECHANICS VALLEY ORDINANCE SITE, ORDNANCE PRODUCTS INC, ORDNANCE PRODUCTS, INC., ORDNANCE PRODUCTS, INC.</td>
+					<td valign="top" >04/07/1988</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="ordnanceproducts"'>
+					www.epa.gov/superfund/ordnanceproducts
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305997</td>
+			        <td VALIGN="TOP" >OXON COVE LANDFILL</td>
+			        <td VALIGN="TOP" >OXON HILL</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OXON HILL ROAD</td>
+                    <td valign="top" >&nbsp;20745&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Site Inspection Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Department of the Interior</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/19/2017</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306195</td>
+			        <td VALIGN="TOP" >PATRIOTIC FIREWORKS MANUFACTURING FACILITY</td>
+			        <td VALIGN="TOP" >NORTH EAST</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >200 PATRIOTIC LANE</td>
+                    <td valign="top" >&nbsp;21901-7014&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >ESI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Chemicals and allied products</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >PATRIOTIC FIREWORKS MANUFACTURING FACILI</td>
+					<td valign="top" >04/22/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD7170024536</td>
+			        <td VALIGN="TOP" >PATUXENT RIVER NAVAL AIR STATION</td>
+			        <td VALIGN="TOP" >PATUXENT RIVER</td>
+				    <td VALIGN="TOP" >ST. MARY'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OPPOSITE LEXINGTON PARK (STATE HWY 235)</td>
+                    <td valign="top" >&nbsp;20670&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Insufficient Data
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management, Waste Management, Waste Management</td>
+					<td valign="top" >Co-disposal landfill (municipal and industrial), Multiple, Other</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >NAS PATUXENT RIVER, PATUXENT RIVER NAVAL AIR STATION, PATUXENT RIVER NAVAL AIR STATION, USN NAVAL AIR STATION, USN NAVAL AIR STATION LANDFILL</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="patuxentrivernavalairstation"'>
+					www.epa.gov/superfund/patuxentrivernavalairstation
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306838</td>
+			        <td VALIGN="TOP" >PEELER'S CLEANERS</td>
+			        <td VALIGN="TOP" >RIVERDALE</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >6227 BALTIMORE AVE</td>
+                    <td valign="top" >&nbsp;20737&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >01/03/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306665</td>
+			        <td VALIGN="TOP" >POWHATAN MINING COMPANY</td>
+			        <td VALIGN="TOP" >WOODLAWN</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >6721 WINDSOR MILL ROAD</td>
+                    <td valign="top" >&nbsp;21207-8725&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Mining</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/12/2009</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306159</td>
+			        <td VALIGN="TOP" >PULASKI MOTORS</td>
+			        <td VALIGN="TOP" >JOPPA</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >1001 PULASKI HIGHWAY</td>
+                    <td valign="top" >&nbsp;21085&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/08/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304244</td>
+			        <td VALIGN="TOP" >QUAD AVENUE CHEMICAL AND BIO FUELS SITE</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >6624 - 6630 QUAD AVENUE</td>
+                    <td valign="top" >&nbsp;21237&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >05/23/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306551</td>
+			        <td VALIGN="TOP" >REGINALD THOMPSON PROPERTY</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >OFF OF OLD FIELD POINT ROAD</td>
+                    <td valign="top" >&nbsp;21903&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/09/2009</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981108632</td>
+			        <td VALIGN="TOP" >ROCKVILLE - CONTROL</td>
+			        <td VALIGN="TOP" >GAITHERSBURG</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >10901 DARNSTOWN RD</td>
+                    <td valign="top" >&nbsp;20878&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/19/2001</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303868</td>
+			        <td VALIGN="TOP" >RUXTON ROYAL CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >901 YORK ROAD</td>
+                    <td valign="top" >&nbsp;21204&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >08/27/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980705164</td>
+			        <td VALIGN="TOP" >SAND, GRAVEL AND STONE</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >RTE 40</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >09/23/2021</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >41.08</td>
+					<td valign="top" >No</td>
+					<td valign="top" >ELKTON QUARRY, MARYLAND, SAND & GRAVEL, SAND GRAVEL & STONE SITE, SAND, GRAVEL & STONE, SAND, GRAVEL AND STONE</td>
+					<td valign="top" >03/01/1982</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="sandgravelstone"'>
+					www.epa.gov/superfund/sandgravelstone
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981038334</td>
+			        <td VALIGN="TOP" >SAUER DUMP</td>
+			        <td VALIGN="TOP" >DUNDALK</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4225 LYNHURST ROAD</td>
+                    <td valign="top" >&nbsp;21222&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+							No
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Industrial waste landfill</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >50</td>
+					<td valign="top" >No</td>
+					<td valign="top" >SAUER DUMP</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="sauerdump"'>
+					www.epa.gov/superfund/sauerdump
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304049</td>
+			        <td VALIGN="TOP" >SCHROEDL CUSTOM CLEANERS</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >5330 REISTERSTOWN ROAD</td>
+                    <td valign="top" >&nbsp;21215&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/29/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305145</td>
+			        <td VALIGN="TOP" >SILVER SPRING RESIDENTIAL MERCURY</td>
+			        <td VALIGN="TOP" >SILVER SPRING</td>
+				    <td VALIGN="TOP" >[Blank County]</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >HYDRUS ROAD</td>
+                    <td valign="top" >&nbsp;20906&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Removal Only Site (No Site Assessment Work Needed)</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Spill or other one-time event, Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >03/16/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306612</td>
+			        <td VALIGN="TOP" >SIMKIN INDUSTRIES PLANT</td>
+			        <td VALIGN="TOP" >CATONSVILLE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >RIVER ROAD</td>
+                    <td valign="top" >&nbsp;21228&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >SIMKIN INDUSTRIES</td>
+					<td valign="top" >12/04/2009</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000301468</td>
+			        <td VALIGN="TOP" >SIMPSON & DOELLER LABEL COMPANY</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2827 E. PRESTON STREET</td>
+                    <td valign="top" >&nbsp;21213&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >ESI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Other, Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/29/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD1470090035</td>
+			        <td VALIGN="TOP" >SMITHSONIAN INSTITUTE, MUSEUM SUPPORT CENTER</td>
+			        <td VALIGN="TOP" >SUITLAND</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >4210 Silver Hill Road</td>
+                    <td valign="top" >&nbsp;20746&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Initial Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Preliminary Assessment Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Smithsonian Institution</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/07/2021</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MD1470090035 - SMITHSONIAN INSTITUTE, MUSEUM SUPPORT CENTER</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306705</td>
+			        <td VALIGN="TOP" >SOUTH HILLTOP ROAD DUMP AKA SIMKINS INDUSTRIES DUMP</td>
+			        <td VALIGN="TOP" >CATONSVILLE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >SOUTH HILLTOP ROAD</td>
+                    <td valign="top" >&nbsp;21228&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >12/03/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980704852</td>
+			        <td VALIGN="TOP" >SOUTHERN MARYLAND WOOD TREATING</td>
+			        <td VALIGN="TOP" >HOLLYWOOD</td>
+				    <td VALIGN="TOP" >ST. MARY'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >STATE ROUTE 235</td>
+                    <td valign="top" >&nbsp;20636&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Deleted NPL</td>
+                    <td valign="top" >Yes </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >04/23/2001</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Manufacturing/Processing/Maintenance</td>
+					<td valign="top" >Lumber and wood products/wood preserving/treatment</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >SOUTHERN MARYLAND WOOD TREATING, SOUTHERN MARYLAND WOOD TREATING, SOUTHERN MARYLAND WOOD TREATING</td>
+					<td valign="top" >[Blank Date]</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="southernmdwoodtreating"'>
+					www.epa.gov/superfund/southernmdwoodtreating
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0001405174</td>
+			        <td VALIGN="TOP" >SPARROWS POINT</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >PATAPSCO RIVER</td>
+                    <td valign="top" >&nbsp;21219&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >HRS Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Spill or other one-time event</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >04/16/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD000218008</td>
+			        <td VALIGN="TOP" >SPECTRON, INC.</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >111 PROVIDENCE RD</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >09/17/2020</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Recycling</td>
+					<td valign="top" >Chemicals/chemical waste (e.g., solvent recovery)</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >51.42</td>
+					<td valign="top" >No</td>
+					<td valign="top" >GALAXY CHEMICAL, SOLVENT DISTILLERS, SPECTRON INC, SPECTRON, INC, SPECTRON, INC.</td>
+					<td valign="top" >07/01/1979</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="spectron"'>
+					www.epa.gov/superfund/spectron
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD982364408</td>
+			        <td VALIGN="TOP" >STANSBURY PARK</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >STANSBURY & HYDRANGEA RDS.</td>
+                    <td valign="top" >&nbsp;21222&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >STANSBURY PARK</td>
+					<td valign="top" >09/03/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000304048</td>
+			        <td VALIGN="TOP" >STARLIGHT CLEANERS</td>
+			        <td VALIGN="TOP" >ABERDEEN</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >113 W. BEL AIR AVENUE</td>
+                    <td valign="top" >&nbsp;21001&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >07/15/2020</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980537559</td>
+			        <td VALIGN="TOP" >STAUFFER CHEM CO</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >BLUEBELL RD TRINCO IND COM</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Deferred to RCRA Subtitle C Program</td>
+					<td valign="top" >Deferred to RCRA</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >G. E. RAIL, P & R SERV CORP, STAUFFER CHEM CO - MD-099</td>
+					<td valign="top" >05/23/2001</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" >MDD078288354 - P & R RAIL CAR SERVICE CORPORATION</td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000303850</td>
+			        <td VALIGN="TOP" >TOWSON CLEANERS</td>
+			        <td VALIGN="TOP" >TOWSON</td>
+				    <td VALIGN="TOP" >BALTIMORE</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >8608 LOCH RAVEN BLVD.</td>
+                    <td valign="top" >&nbsp;21286&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Submitted to or Addressed by Superfund Removal Program</td>
+					<td valign="top" >Referred to Removal - NFRAP</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" >TOWSON CLEANSERS</td>
+					<td valign="top" >02/26/2019</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD6210020743</td>
+			        <td VALIGN="TOP" >U.S. ARMY FOREST GLEN ANNEX</td>
+			        <td VALIGN="TOP" >SILVER SPRING</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2461 LINDEN LANE</td>
+                    <td valign="top" >&nbsp;20910&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under Other Federal Agency</td>
+					<td valign="top" >Other Cleanup Activity: Federal Facility-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other, Waste Management</td>
+					<td valign="top" >Illegal disposal/open dump, Research, development, and testing facility, Spill or other one-time event</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >WALTER REED AMC FOREST GLEN ANNEX</td>
+					<td valign="top" >01/05/2012</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981108947</td>
+			        <td VALIGN="TOP" >US NAVAL RESEARCH LAB - LAUNCH</td>
+			        <td VALIGN="TOP" >WALDORF</td>
+				    <td VALIGN="TOP" >CHARLES</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >BERRY RD</td>
+                    <td valign="top" >&nbsp;20601&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Site Inspection Review Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >11/08/2006</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD9170090022</td>
+			        <td VALIGN="TOP" >US NAVAL STATION</td>
+			        <td VALIGN="TOP" >ANNAPOLIS</td>
+				    <td VALIGN="TOP" >ANNE ARUNDEL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >ANNAPOLIS NAVAL COMPLEX</td>
+                    <td valign="top" >&nbsp;20084&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/13/2007</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD6170024685</td>
+			        <td VALIGN="TOP" >USN NAVAL RESEARCH LAB CHES BAY DETACH</td>
+			        <td VALIGN="TOP" >CHESAPEAKE BEACH</td>
+				    <td VALIGN="TOP" >CALVERT</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >MD RD 261</td>
+                    <td valign="top" >&nbsp;20732&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under Other Federal Agency</td>
+					<td valign="top" >Other Cleanup Activity: Federal Facility-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Research, development, and testing facility</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >CHESAPEAKE BEACH DETACHMENT-NAVAL RESEARCH LAB, USN CHES BAY DETACH BLDG 4, USN CHES BAY DETACH PAST CHEM LANDFILL, USN NAVAL RESEARCH LABORATORY</td>
+					<td valign="top" >08/16/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD5170022540</td>
+			        <td VALIGN="TOP" >USN NAVAL SUPPORT FACILITY</td>
+			        <td VALIGN="TOP" >THURMONT</td>
+				    <td VALIGN="TOP" >FREDERICK</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >POST OFFICE BOX 1000</td>
+                    <td valign="top" >&nbsp;21788&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >Fed Fac Site Inspection Review  Ongoing</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Military/Other Ordinance</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >USN NAVAL SUPPLY FACILITIES</td>
+					<td valign="top" >05/08/2015</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0170023444</td>
+			        <td VALIGN="TOP" >USN NAVAL SURFACE WARFARE CTR-WHITE OAK</td>
+			        <td VALIGN="TOP" >SILVER SPRING</td>
+				    <td VALIGN="TOP" >MONTGOMERY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >10901 NEW HAMPSHIRE AVENUE</td>
+                    <td valign="top" >&nbsp;20903-5000&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Deferred to RCRA Subtitle C Program</td>
+					<td valign="top" >Deferred to RCRA</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Military/Other Ordinance, Research, development, and testing facility</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >NSWC - WHITEOAK *, USN NAVAL SURFACE WEAPONS CTR-WHITE OAK</td>
+					<td valign="top" >05/13/2010</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD4170022541</td>
+			        <td VALIGN="TOP" >USN SURFACE WARFARE CENTER-SOLOMON'S ISL</td>
+			        <td VALIGN="TOP" >SOLOMON'S ISLAND</td>
+				    <td VALIGN="TOP" >CALVERT</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >DEPT OF THE NAVY</td>
+                    <td valign="top" >&nbsp;20688&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other, Other</td>
+					<td valign="top" >Agricultural (e.g., grain elevator), Research, development, and testing facility</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >USN NAVAL SURFACE WEAPONS CTR-SOLOMON IS</td>
+					<td valign="top" >03/10/2005</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306795</td>
+			        <td VALIGN="TOP" >VALET 1-HOUR CLEANERS</td>
+			        <td VALIGN="TOP" >ABERDEEN</td>
+				    <td VALIGN="TOP" >HARFORD</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >34 N. PARKE STREET</td>
+                    <td valign="top" >&nbsp;21001&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >11/14/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MD0000004002</td>
+			        <td VALIGN="TOP" >VICON PROPERTY</td>
+			        <td VALIGN="TOP" >ELKTON</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >DOGWOOD ROAD & SINGERLY ROAD</td>
+                    <td valign="top" >&nbsp;21921&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Unknown</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/03/2003</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000306830</td>
+			        <td VALIGN="TOP" >VICTORY CLEANERS</td>
+			        <td VALIGN="TOP" >POCOMOKE CITY</td>
+				    <td VALIGN="TOP" >WORCESTER</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >218 CEDAR STREET</td>
+                    <td valign="top" >&nbsp;21851&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Assessment Needed or Ongoing</td>
+					<td valign="top" >Additional Assessment Needed/Ongoing</td>
+					<td valign="top" >SI Start Needed</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Dry-Cleaning Operations</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >06/16/2015</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD981109283</td>
+			        <td VALIGN="TOP" >WALDORF - LAUNCH</td>
+			        <td VALIGN="TOP" >BRANDYWINE</td>
+				    <td VALIGN="TOP" >PRINCE GEORGE'S</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >COUNTRY LN</td>
+                    <td valign="top" >&nbsp;20613&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Referred to Cleanup Program</td>
+					<td valign="top" >Long-term Cleanup Attention Needed/Ongoing under State Program</td>
+					<td valign="top" >Other Cleanup Activity: State-Lead Cleanup</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Other</td>
+					<td valign="top" >Department of Defense</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >NIKE W-44 WALDORF, WALDORF - LAUNCH</td>
+					<td valign="top" >08/01/2018</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDN000305672</td>
+			        <td VALIGN="TOP" >WOODBERRY SANITARY LANDFILL</td>
+			        <td VALIGN="TOP" >BALTIMORE</td>
+				    <td VALIGN="TOP" >BALTIMORE CITY</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >2107 E. COLD SPRING LANE</td>
+                    <td valign="top" >&nbsp;21214-2419&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Not NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >No</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >
+						
+								Status Unavailable
+							
+					</td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >Not Eligible for the NPL/No Further Remedial Action Planned</td>
+					<td valign="top" ></td>
+					<td valign="top" >NFRAP-Site does not qualify for the NPL based on existing information</td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Municipal solid waste landfill</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >09/18/2002</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location=""'>
+					
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+				<tr>
+					<td VALIGN="TOP" >MDD980504344</td>
+			        <td VALIGN="TOP" >WOODLAWN COUNTY LANDFILL</td>
+			        <td VALIGN="TOP" >COLORA</td>
+				    <td VALIGN="TOP" >CECIL</td>
+			        <td valign="top" >MD</td>
+                    <td valign="top" >FIRE TOWER & WAIBEL RDS.</td>
+                    <td valign="top" >&nbsp;21917&nbsp;</td>
+                    <td valign="top" >R03</td>
+                    <td valign="top" >Final NPL</td>
+                    <td valign="top" >No </td>
+					<td valign="top" >No</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >
+						
+							Yes
+						
+					</td>
+					<td valign="top" >Yes</td>
+					<td valign="top" >06/25/2001</td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" ></td>
+					<td valign="top" >Active</td>
+					<td valign="top" >Waste Management</td>
+					<td valign="top" >Co-disposal landfill (municipal and industrial)</td>
+					<td valign="top" ></td>
+					<td valign="top" >No</td>
+					<td valign="top" ></td>
+					<td valign="top" >48.13</td>
+					<td valign="top" >No</td>
+					<td valign="top" >WOODLAWN CO LANDFILL, WOODLAWN COUNTY LANDFILL, WOODLAWN LANDFILL, WOODLAWN TRANSFER STATION</td>
+					<td valign="top" >04/01/1979</td>
+					<td valign="top" style="cursor:pointer" onclick='window.location="woodlawn"'>
+					www.epa.gov/superfund/woodlawn
+					</td>
+					<td valign="top" ></td>
+				</tr>
+				
+			</table>
+		</td>
+	</tr>
+</table>
