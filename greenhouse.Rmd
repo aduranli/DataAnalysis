@@ -80,3 +80,39 @@ national_emissions2022 <- read_excel("2022_data_summary_spreadsheets/ghgp_data_b
 glimpse(national_emissions2022)
 ```
 
+Turn in, via GitHub, a draft of the data notebook you will produce for this project. You should work on this notebook together, but everyone needs to upload a copy to their own GitHub repo and turn in a link for grading. At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. The more you have finished, the more feedback I'll be able to give you. If you are having trouble with a question or thinking about changing/adding a question, let me know that in your notebook, too.
+
+
+1. How do greenhouse gas emissions in MD compare/ rank nationally? 
+Maryland is 37th in the ranking of all states and territories with Texas having the most emissions in 2022 and total facilities emitting greenhouse gas and DC having the least emissions and the Virgin Islands having the fewest facilities.
+
+```{r}
+national_filtered <- national_emissions2022 |>
+   group_by(State) |>  
+  summarise(count=n()) |>
+  arrange(desc(count))
+```
+
+```{r}
+#chat gpt helped troubleshoot error
+total_emissions_per_state <- national_emissions2022 %>%
+  group_by(State) %>%
+  summarise(total_emissions = sum(`2022 Total reported direct emissions`, na.rm = TRUE)) |>
+  arrange(desc(total_emissions))
+```
+
+2. What are the locations of top greenhouse gas emitters?
+
+
+
+3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
+
+
+
+4. What are the demographics (median income, race) in areas with the most greenhouse emissions?
+
+
+
+5. What industries/ companies emit the most and what are their parent companies? 
+
+
