@@ -160,9 +160,6 @@ md_emissions2012 |>
   rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |> 
   arrange(desc(ghg_quantity))
 ```
-```{r}
-
-```
 
 
 4. What are the demographics (median income, race) in areas with the most greenhouse emissions?
@@ -175,4 +172,7 @@ md_emissions2012 |>
 
 5. What industries/ companies emit the most and what are their parent companies? 
 
+```{r}
+
+```
 
