@@ -189,16 +189,10 @@ md_county_income |> clean_names() |>
 5. What industries/ companies emit the most and what are their parent companies? 
 
 ```{r}
-<<<<<<< Updated upstream
-
-```
-=======
 glimpse(md_emissions2022) #this will give us the parent companies. #use the subparts codes to find what industries the top emitters pertain to?
 
 glimpse(national_emissions2022) #this will give us industry.
 #both are for 2022
 
 ```
-
->>>>>>> Stashed changes
 
