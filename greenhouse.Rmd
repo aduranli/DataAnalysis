@@ -162,10 +162,26 @@ md_emissions2012 |>
 ```
 
 
-4. What are the demographics (median income, race) in areas with the most greenhouse emissions?
+4. What are the demographics (median income, race) in areas with the most greenhouse emissions in Maryland?
 
 ```{r}
+md_emissions2022 |> group_by(county_name) |> 
+  summarise(total_emissions = sum(ghg_quantity)) |>
+  arrange(desc(total_emissions)) |> 
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  #Prince George's County has duplicates and we need to figure out how to combine them. 2 extra PG Counties and 1 extra MoCo and 1 extra Harford.
+  distinct()
 
+md_county_income |> clean_names() |> 
+  mutate(name = str_to_title(str_remove_all(name,"County, Maryland"))) |>
+  mutate(name = str_to_title(str_remove_all(name, ", Maryland"))) |> 
+  mutate(name = str_trim(name,side="both")) |>
+  mutate(name = str_to_upper(name))
+
+  
 ```
 
 
@@ -173,6 +189,16 @@ md_emissions2012 |>
 5. What industries/ companies emit the most and what are their parent companies? 
 
 ```{r}
+<<<<<<< Updated upstream
 
 ```
+=======
+glimpse(md_emissions2022) #this will give us the parent companies. #use the subparts codes to find what industries the top emitters pertain to?
+
+glimpse(national_emissions2022) #this will give us industry.
+#both are for 2022
+
+```
+
+>>>>>>> Stashed changes
 
