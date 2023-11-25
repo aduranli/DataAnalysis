@@ -17,9 +17,6 @@ We believe these questions are newsworthy because they address some of the thing
 
 Datasets come from: https://www.epa.gov/ghgreporting/data-sets
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
  
 Deliverable 2:
 Loads and cleans the core data set to prepare for analysis. 
@@ -32,8 +29,11 @@ Describe the limits of the data in terms of timeframe, what is and is not includ
 
 ## Load libraries and establish settings
 
+#IMPORT
 
 ```{r}
+
+knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(sf)
 library(janitor)
@@ -64,16 +64,56 @@ md_county_income <- get_acs(geography = "county",
   mutate(min = estimate - moe, max = estimate + moe) |> 
   glimpse()
 
+superfund_fixed <- read_csv("data/superfund-fixed.csv", skip = 10)
 
-
+md_emissions2012 <- read_excel("2022_data_summary_spreadsheets/ghgp_data_2012.xlsx", skip = 3)
 
 ```
+
+# CLEAN
 ```{r}
-#to view largest to smallest quantity
-md_emissions2022 <- md_emissions2022 |> 
+
+md_emissions2022 <- read_excel("data/md_emissions_2022.xls", skip = 5) |>
+  #to view largest to smallest quantity
   clean_names() |> 
-  rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |> 
-  arrange(desc(ghg_quantity))
+  rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> #FINISH CLEANING (EVERYTHING IN CAPS)
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  #Prince George's County has duplicates and we need to figure out how to combine them. 2 extra PG Counties and 1 extra MoCo and 1 extra Harford.
+  distinct()
+
+md_emissions2012 <- md_emissions2012 |> 
+  clean_names() |> 
+  filter(state == "MD") |> 
+  mutate(facility_name= str_to_upper(facility_name)) |> 
+  mutate(address = str_to_upper(address)) |>
+  mutate(city = str_to_upper(city)) |>
+  mutate(county = str_to_upper(county)) |> 
+  mutate(industry_type_sectors = str_to_upper(industry_type_sectors))
+
+emissions_grouped_by_county <- md_emissions2022 |>
+  group_by(county_name) |> 
+  summarise(total_emissions = sum(ghg_quantity)) 
+
+md_county_income <- md_county_income |> clean_names() |> 
+  mutate(name = str_to_title(str_remove_all(name,"County, Maryland"))) |>
+  mutate(name = str_to_title(str_remove_all(name, ", Maryland"))) |> 
+  mutate(name = str_trim(name,side="both")) |>
+  mutate(name = str_to_upper(name))
+
+md_2022_emissions_with_income <- md_county_income |>
+  rename(county_name = name) |> 
+  left_join(emissions_grouped_by_county)
+
+superfund_fixed_filtered <- superfund_fixed |> 
+  clean_names() 
+
 ```
 
 ```{r}
@@ -83,10 +123,13 @@ national_emissions2022 <- read_excel("2022_data_summary_spreadsheets/ghgp_data_b
 glimpse(national_emissions2022)
 ```
 
+#ANALYSIS
+
 Turn in, via GitHub, a draft of the data notebook you will produce for this project. You should work on this notebook together, but everyone needs to upload a copy to their own GitHub repo and turn in a link for grading. At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. The more you have finished, the more feedback I'll be able to give you. If you are having trouble with a question or thinking about changing/adding a question, let me know that in your notebook, too.
 
 
-1. How do greenhouse gas emissions in MD compare/ rank nationally? 
+#1. How do greenhouse gas emissions in MD compare/ rank nationally? 
+
 Maryland is 37th in the ranking of all states and territories with Texas having the most emissions in 2022 and total facilities emitting greenhouse gas and DC having the least emissions and the Virgin Islands having the fewest facilities.
 
 ```{r}
@@ -104,95 +147,101 @@ total_emissions_per_state <- national_emissions2022 %>%
   arrange(desc(total_emissions))
 ```
 
-2. What are the locations of top greenhouse gas emitters in Maryland?
+#2. What are the locations of top greenhouse gas emitters in Maryland?
+
 There were 52 total facilities emitting greenhouse gas in 2022.
-The top three GHG emitters are "Brandon Shores LLC", "LEHIGH CEMENT COMPANY LLC", and "Keys Energy Center" but a couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter.
+The top three GHG emitters are "Brandon Shores LLC", "LEHIGH CEMENT COMPANY LLC", and "Keys Energy Center" but a couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter. When you account for income, Cecil County has the highest emissions followed by Anne Arundel and Prince George's counties. The counties that have no emissions are Queen Anne's, Somerset, St. Mary's and Kent counties.
 
 ```{r}
 locations_md <- md_emissions2022 |> 
   arrange(desc(ghg_quantity)) |> 
   mutate(zip_code = as.character(zip_code)) |> 
-  glimpse()
+  group_by(county_name) |> 
+  summarise(sum(ghg_quantity))
 
 counties <- counties()
 
-glimpse(counties)
 md_counties <- counties |>
-  filter(STATEFP == "24")
+  filter(STATEFP == "24") |>
+  clean_names() |>
+  arrange(namelsad)
 
-map_md_emissions <- md_counties |> left_join(locations_md, by=c('NAMELSAD'='county_name'))
+locations_map <- md_counties |>
+  arrange() |>
+  bind_cols(md_2022_emissions_with_income)
 
-ggplot(locations_md, aes(x = longitude, y = latitude)) +
-  geom_point() +
-  labs(x = "longitude", y = "latitude") +
-  ggtitle("Map of Latitude and Longitude")
-
-ggplot(locations_md, aes(x = ghg_quantity, y = county_name)) +
-    geom_point(color = "blue", size = 3) +
-    labs(title = "Number of Calls by Income and Zipcode", x = "ghg_emissons", y = "county_name") +
-    geom_text(aes(label = zip_code), check_overlap = TRUE)
-
-ggplot() +
-  geom_sf(data=locations_md, aes(fill=ghg_quantity)) +
-  scale_colour_viridis_b(option="magma") +
-  theme_minimal()
-
+mapview(locations_map, zcol="total_emissions")
 ```
 
-3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
+
+#3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
+
+The most superfunds in Maryland are located in Cecil County, which aligns with our observations from the previous question on where where the top greenhouse gas emitters in Maryland which was Cecil. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. 
 
 ```{r}
-#Need help figuring out how to make the excel spreadsheet download
+superfund_fixed_filtered |> 
+  filter(str_detect(npl_status, "Final NPL")) |> 
+  group_by(county) |> 
+  arrange(desc(county))
+
+superfund_fixed_filtered |> 
+  filter(str_detect(npl_status, "Final NPL")) |> 
+  group_by(county) |> 
+  summarise(count = n()) |> 
+  arrange(desc(count))
+
 ```
 
-Alt 3. How have emissions in Maryland changed in the past decade?
-There were 70 total facilities emitting greenhouse gas in 2012.
+#Alt 3. How have emissions in Maryland changed in the past decade?
+
+There were 70 total facilities emitting greenhouse gas in 2012. 
 The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point. University of Maryland was 63rd. In 2022, it climbed to number 18 out of 50.
+Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions.
 
 
 ```{r}
-#filtering by quantity
-md_emissions2012 <- read_excel("data/alldata.xls", sheet = "2012", skip = 5) 
-glimpse(md_emissions2012)
-
-md_emissions2012 |>
-    clean_names() |> 
-  rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |> 
+md_emissions2022 |> 
   arrange(desc(ghg_quantity))
+
+#I only found 67 in this dataset. Check? And UMD was 19th out of 67 so still not great
+md_emissions2012 |> 
+  arrange(desc(total_reported_direct_emissions))
+
 ```
 
 
-4. What are the demographics (median income, race) in areas with the most greenhouse emissions in Maryland?
+#4. What are the demographics (median income) in areas with the most greenhouse emissions in Maryland?
 
+The county with the most emissions with median income included are Charles County were the median income is 
 ```{r}
-md_emissions2022 |> group_by(county_name) |> 
-  summarise(total_emissions = sum(ghg_quantity)) |>
-  arrange(desc(total_emissions)) |> 
-  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
-  mutate(county_name = str_trim(county_name,side="both")) |>
-  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
-  mutate(county_name = str_to_upper(county_name)) |> 
-  #Prince George's County has duplicates and we need to figure out how to combine them. 2 extra PG Counties and 1 extra MoCo and 1 extra Harford.
-  distinct()
+#how best to display this? Maybe a chart? dot plot?
+md_2022_emissions_with_income |> 
+  arrange(desc(total_emissions))
 
-md_county_income |> clean_names() |> 
-  mutate(name = str_to_title(str_remove_all(name,"County, Maryland"))) |>
-  mutate(name = str_to_title(str_remove_all(name, ", Maryland"))) |> 
-  mutate(name = str_trim(name,side="both")) |>
-  mutate(name = str_to_upper(name))
 
   
 ```
 
+```{r}
 
 
-5. What industries/ companies emit the most and what are their parent companies? 
+```
+
+
+
+#5. What industries/ companies emit the most and what are their parent companies? 
 
 ```{r}
 glimpse(md_emissions2022) #this will give us the parent companies. #use the subparts codes to find what industries the top emitters pertain to?
 
 glimpse(national_emissions2022) #this will give us industry.
 #both are for 2022
+
+```
+
+
+```{r}
+
 
 ```
 
