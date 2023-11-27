@@ -42,6 +42,7 @@ library(tidycensus)
 library(dplyr)
 library(ggplot2)
 library(mapview)
+library(ggthemes)
 
 ```
 
@@ -80,12 +81,11 @@ md_emissions2022 <- read_excel("data/md_emissions_2022.xls", skip = 5) |>
   mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
   mutate(county_name = str_trim(county_name,side="both")) |>
   #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
-  mutate(county_name = str_to_upper(county_name)) |> #FINISH CLEANING (EVERYTHING IN CAPS)
+  mutate(county_name = str_to_upper(county_name)) |> 
   mutate(facility_name = str_to_upper(facility_name)) |> 
   mutate(reported_address = str_to_upper(reported_address)) |>
   mutate(city_name = str_to_upper(city_name)) |>
   mutate(parent_companies = str_to_upper(parent_companies)) |>
-  #Prince George's County has duplicates and we need to figure out how to combine them. 2 extra PG Counties and 1 extra MoCo and 1 extra Harford.
   distinct()
 
 md_emissions2012 <- md_emissions2012 |> 
@@ -147,10 +147,15 @@ total_emissions_per_state <- national_emissions2022 %>%
   arrange(desc(total_emissions))
 ```
 
-#2. What are the locations of top greenhouse gas emitters in Maryland?
+#2. What are the locations of top greenhouse gas emitters in Maryland and how has that changed in the past decade?
 
-There were 52 total facilities emitting greenhouse gas in 2022.
-The top three GHG emitters are "Brandon Shores LLC", "LEHIGH CEMENT COMPANY LLC", and "Keys Energy Center" but a couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter. When you account for income, Cecil County has the highest emissions followed by Anne Arundel and Prince George's counties. The counties that have no emissions are Queen Anne's, Somerset, St. Mary's and Kent counties.
+There were 67 total facilities emitting greenhouse gas in 2012. A decade later in 2022, there were 52 total facilities emitting greenhouse gas, according to the EPA.
+
+The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point.
+Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions.
+
+A couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter. The counties that have no emissions are Queen Anne's, Somerset, St. Mary's and Kent counties.
+
 
 ```{r}
 locations_md <- md_emissions2022 |> 
@@ -160,23 +165,22 @@ locations_md <- md_emissions2022 |>
   summarise(sum(ghg_quantity))
 
 counties <- counties()
+```
 
-md_counties <- counties |>
-  filter(STATEFP == "24") |>
-  clean_names() |>
-  arrange(namelsad)
+```{r}
+md_emissions2022 |> 
+  arrange(desc(ghg_quantity))
 
-locations_map <- md_counties |>
-  arrange() |>
-  bind_cols(md_2022_emissions_with_income)
+#I only found 67 in this dataset. Check? And UMD was 19th out of 67 so still not great
+md_emissions2012 |> 
+  arrange(desc(total_reported_direct_emissions))
 
-mapview(locations_map, zcol="total_emissions")
 ```
 
 
 #3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
 
-The most superfunds in Maryland are located in Cecil County, which aligns with our observations from the previous question on where where the top greenhouse gas emitters in Maryland which was Cecil. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. 
+The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. 
 
 ```{r}
 superfund_fixed_filtered |> 
@@ -192,56 +196,125 @@ superfund_fixed_filtered |>
 
 ```
 
-#Alt 3. How have emissions in Maryland changed in the past decade?
-
-There were 70 total facilities emitting greenhouse gas in 2012. 
-The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point. University of Maryland was 63rd. In 2022, it climbed to number 18 out of 50.
-Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions.
-
-
-```{r}
-md_emissions2022 |> 
-  arrange(desc(ghg_quantity))
-
-#I only found 67 in this dataset. Check? And UMD was 19th out of 67 so still not great
-md_emissions2012 |> 
-  arrange(desc(total_reported_direct_emissions))
-
-```
-
 
 #4. What are the demographics (median income) in areas with the most greenhouse emissions in Maryland?
 
-The county with the most emissions with median income included are Charles County were the median income is 
+The median income of the counties with the highest emissions have among the highest median incomes in Maryland.
+In Charles County, which has the most emissions, median income is about $109,905. Anne Arundel County's median income is about $109,958 and Prince George's is about $92,513.
+
+ 
 ```{r}
 #how best to display this? Maybe a chart? dot plot?
 md_2022_emissions_with_income |> 
   arrange(desc(total_emissions))
 
 
+write_csv(md_2022_emissions_with_income, "data/md_2022_emissions_with_income.csv")  
+
+```
+
+```{r}
+ggplot(md_2022_emissions_with_income, aes(x = max, y = total_emissions)) +
+  geom_point(color = "blue", size = 3) +
+  labs(title = "Total emissions and median income", x = "Income", y = "GHG") +
+  geom_text(aes(label = county_name), check_overlap = TRUE)
+
+```
+
+
+```{r}
+md_counties <- counties |>
+  filter(STATEFP == "24") |>
+  clean_names() |>
+  arrange(namelsad)
+
+
+locations_map <- md_counties |>
+  arrange() |>
+  bind_cols(md_2022_emissions_with_income)
+
+mapview(locations_map, zcol="total_emissions")
+
+```
+
+
+
+#5. What industries emit the most greenhouse gases in Maryland? 
+General Stationary Fuel Combustion Sources= 16,384,801
+Municipal Solid Waste Landfills= 884,420
+Petroleum and Natural Gas Systems= 1,466,486
+Electricity Generation= 10,636,599
+Suppliers of Natural Gas/Liquids= 177,591
+Suppliers of Carbon Dioxide= 1,406,085
+Cement Production= 3,366,799
+
+See our chart at: https://datawrapper.dwcdn.net/unfwg/1/
+In Maryland, the fuel (42%), electricity (27%) and cement production (17%) industries produced the most emissions in 2022.
+
+
+```{r}
+Fuel<- md_emissions2022 |>
+  filter(str_detect(subparts, "C")) 
+ 
+
+```
+
+
+```{r}
+Landfills<- md_emissions2022 |>
+  filter(str_detect(subparts, "HH")) 
   
-```
-
-```{r}
-
 
 ```
 
-
-
-#5. What industries/ companies emit the most and what are their parent companies? 
+```{r}
+Petsystems<- md_emissions2022 |>
+  filter(str_detect(subparts, "W"))
+ 
+```
 
 ```{r}
-glimpse(md_emissions2022) #this will give us the parent companies. #use the subparts codes to find what industries the top emitters pertain to?
+Electricity<- md_emissions2022 |>
+  filter(str_detect(subparts, "D")) 
+ 
+```
 
-glimpse(national_emissions2022) #this will give us industry.
-#both are for 2022
+```{r}
+carbon<- md_emissions2022 |>
+  filter(str_detect(subparts, "PP")) 
+```
+
+
+```{r}
+cement<- md_emissions2022 |>
+  filter(str_detect(subparts, "H")) 
+ 
+```
+
+
+```{r}
+#join all results by totals
+total_fuel <- Fuel %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "fuel")
+total_landfills <- Landfills %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "landfill")
+total_petsystems <- Petsystems %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "pet systems")
+total_electricity <- Electricity %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "electricity")
+total_carbon <- carbon %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "carbon")
+total_cement <- cement %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "cement")
+total_natgas <-Natgas %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "natural gas")
+
+combined_totals <- bind_rows(total_fuel, total_landfills, total_petsystems, total_electricity, total_carbon, total_cement, total_natgas)
 
 ```
 
 
 ```{r}
-
-
+write_csv(combined_totals, "data/combined_totals.csv")  
 ```
 
