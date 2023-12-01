@@ -1,0 +1,526 @@
+---
+title: "Greenhouse Gas Reporting Program Data"
+author: "Laura Cech and Andrea Duran Liceaga"
+date: "2023-Fall"
+output: html_document
+---
+
+Intro: Given the ambitious goals of Maryland officials to reduce greenhouse gas emissions (by 60 percent by 2031), we propose to examine EPA data to answer fundamental questions:
+
+1. How do greenhouse gas emissions in MD compare/ rank nationally? 
+2. What are the locations of top greenhouse gas emitters?
+3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
+4. What are the demographics (median income, race) in areas with the most greenhouse emissions?
+5. What industries/ companies emit the most and what are their parent companies? 
+
+We believe these questions are newsworthy because they address some of the things people might want to know about how our state is doing regarding emissions.
+
+Datasets come from: https://www.epa.gov/ghgreporting/data-sets
+
+ 
+Deliverable 2:
+Loads and cleans the core data set to prepare for analysis. 
+
+Shows basic exploratory analysis to demonstrate an understanding of the dataset, including the number of rows and columns, any obvious limitations or flaws and any reasons why it might not be able to answer the questions you've posed last week.
+-- We have loaded national and state data from EPA and census data. Based on our questions, we believe we have the data needed. We also may be interested in exploring additonal features of the FLIGHT dashboard.
+
+Describe the limits of the data in terms of timeframe, what is and is not included and any codes or other information you'd need to find definitions for, and what you've done to better define it.
+-- We found a good glossary (https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator) that translates the amount of emissions into real world effects.
+
+## Load libraries and establish settings
+
+#IMPORT
+
+```{r}
+
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(sf)
+library(janitor)
+library(tigris)
+library(tidycensus)
+library(dplyr)
+library(ggplot2)
+library(mapview)
+library(ggthemes)
+#asked chatgpt for code to load one sheet of a spreadsheet
+library(readxl)
+
+```
+
+
+```{r}
+
+#This is the data from FLIGHT to look at emissions from the state of Maryland
+md_emissions2022 <- read_excel("data/md_emissions_2022.xls", skip = 5)
+glimpse(md_emissions2022)
+
+md_emissions2021 <- read_excel("data/flight.xls", sheet = "2021", skip = 6) 
+
+md_emissions2020 <- read_excel("data/flight.xls", sheet = "2020", skip = 6) 
+
+md_emissions2019 <- read_excel("data/flight.xls", sheet = "2019", skip = 6) 
+
+md_emissions2018 <- read_excel("data/flight.xls", sheet = "2018", skip = 6) 
+
+md_emissions2017 <- read_excel("data/flight.xls", sheet = "2017", skip = 6) 
+
+md_emissions2016 <- read_excel("data/flight.xls", sheet = "2016", skip = 6) 
+
+md_emissions2015 <- read_excel("data/flight.xls", sheet = "2015", skip = 6) 
+
+md_emissions2014 <- read_excel("data/flight.xls", sheet = "2014", skip = 6) 
+
+md_emissions2013 <- read_excel("data/flight.xls", sheet = "2013", skip = 6) 
+
+md_emissions2012 <- read_excel("data/flight.xls", sheet = "2012", skip = 6) 
+
+md_emissions2011 <- read_excel("data/flight.xls", sheet = "2011", skip = 6) 
+
+md_emissions2010 <- read_excel("data/flight.xls", sheet = "2010", skip = 6) 
+
+#this is getting the data from the Census API file for median income from 2021 by County in the state of Maryland.
+census_api_key("77872777955b38b9334cbbae8eea25f316159387")
+
+md_county_income <- get_acs(geography = "county",
+              variables = c(medincome = "B19013_001"),
+              year = 2021,
+              state = "MD") |> 
+  mutate(min = estimate - moe, max = estimate + moe) |> 
+  glimpse()
+
+superfund_fixed <- read_csv("data/superfund-fixed.csv", skip = 10)
+
+```
+
+# CLEAN
+```{r}
+
+emissions_grouped_by_county <- md_emissions2022 |>
+  group_by(county_name) |> 
+  summarise(total_emissions = sum(ghg_quantity))
+
+md_emissions2022 <- md_emissions2022 |> 
+  #to view largest to smallest quantity
+  clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() #|> 
+  #adorn_totals() #|> 
+  #filter(reporting_year != "Total")
+
+total_md_emissions2022 <- md_emissions2022 |> 
+  #to view largest to smallest quantity
+  clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  #adorn_totals()
+  mutate(total = sum(ghg_quantity))
+
+md_emissions2010 <- md_emissions2010 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() #|> 
+  #adorn_totals()
+
+md_emissions2011 <- md_emissions2011 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() #|> 
+  #adorn_totals()
+
+md_emissions2012 <- md_emissions2012 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2013 <- md_emissions2013 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2014 <- md_emissions2014 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2015 <- md_emissions2015 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2016 <- md_emissions2016 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2017 <- md_emissions2017 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2018 <- md_emissions2018 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2019 <- md_emissions2019 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2020 <- md_emissions2020 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+md_emissions2021 <- md_emissions2021 |> 
+   clean_names() |> 
+  #rename(ghg_quantity = ghg_quantity_metric_tons_co2e) |>
+  mutate(county_name = str_to_title(str_remove_all(county_name,"COUNTY"))) |>
+  mutate(county_name = str_trim(county_name,side="both")) |>
+  #mutate(county_name = str_to_title(str_remove_all(county_name," CITY"))) |> 
+  mutate(county_name = str_to_upper(county_name)) |> 
+  mutate(facility_name = str_to_upper(facility_name)) |> 
+  mutate(reported_address = str_to_upper(reported_address)) |>
+  mutate(city_name = str_to_upper(city_name)) |>
+  mutate(parent_companies = str_to_upper(parent_companies)) |>
+  distinct() |> 
+  adorn_totals()
+
+ 
+
+md_county_income <- md_county_income |> clean_names() |> 
+  mutate(name = str_to_title(str_remove_all(name,"County, Maryland"))) |>
+  mutate(name = str_to_title(str_remove_all(name, ", Maryland"))) |> 
+  mutate(name = str_trim(name,side="both")) |>
+  mutate(name = str_to_upper(name))
+
+md_2022_emissions_with_income <- md_county_income |>
+  rename(county_name = name) |> 
+  left_join(emissions_grouped_by_county)
+
+superfund_fixed_filtered <- superfund_fixed |> 
+  clean_names() 
+
+```
+
+```{r}
+#to compare Md and the rest of the nation
+#read in summary file from EPA
+national_emissions2022 <- read_excel("data/ghgp_data_by_year_2022.xlsx", sheet = "Direct Emitters", skip = 3) 
+glimpse(national_emissions2022)
+```
+
+#ANALYSIS
+
+Turn in, via GitHub, a draft of the data notebook you will produce for this project. You should work on this notebook together, but everyone needs to upload a copy to their own GitHub repo and turn in a link for grading. At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. The more you have finished, the more feedback I'll be able to give you. If you are having trouble with a question or thinking about changing/adding a question, let me know that in your notebook, too.
+
+
+#1. How do greenhouse gas emissions in MD compare/ rank nationally? 
+
+Maryland is 37th in the ranking of all states and territories with Texas having the most emissions in 2022 and total facilities emitting greenhouse gas and DC having the least emissions and the Virgin Islands having the fewest facilities.
+
+```{r}
+national_filtered <- national_emissions2022 |>
+   group_by(State) |>  
+  summarise(count=n()) |>
+  arrange(desc(count))
+```
+
+```{r}
+#chat gpt helped troubleshoot error
+total_emissions_per_state <- national_emissions2022 %>%
+  group_by(State) %>%
+  summarise(total_emissions = sum(`2022 Total reported direct emissions`, na.rm = TRUE)) |>
+  arrange(desc(total_emissions))
+```
+
+#2. What are the locations of top greenhouse gas emitters in Maryland and how has that changed in the past 12 years?
+
+#have to compare 
+There were 67 total facilities emitting greenhouse gas in 2012. A decade later in 2022, there were 52 total facilities emitting greenhouse gas, according to the EPA.
+
+The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point.
+Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions.
+
+A couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter. The counties that have no emissions are Queen Anne's, Somerset, St. Mary's and Kent counties.
+
+
+```{r}
+locations_md <- md_emissions2022 |> 
+  arrange(desc(ghg_quantity)) |> 
+  mutate(zip_code = as.character(zip_code)) |> 
+  group_by(county_name) |> 
+  summarise(sum(ghg_quantity))
+
+counties <- counties()
+```
+
+```{r}
+md_emissions2022 |> 
+  arrange(desc(ghg_quantity))
+
+#I only found 67 in this dataset. Check? And UMD was 19th out of 67 so still not great
+md_emissions2012 |> 
+  arrange(desc(total_reported_direct_emissions))
+
+```
+
+```{r}
+all_md_emissions_12y <- 
+```
+
+
+#3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
+
+The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. 
+
+```{r}
+superfund_fixed_filtered |> 
+  filter(str_detect(npl_status, "Final NPL")) |> 
+  group_by(county) |> 
+  arrange(desc(county))
+
+superfund_fixed_filtered |> 
+  filter(str_detect(npl_status, "Final NPL")) |> 
+  group_by(county) |> 
+  summarise(count = n()) |> 
+  arrange(desc(count))
+
+```
+
+
+#4. What are the demographics (median income) in areas with the most greenhouse emissions in Maryland?
+
+The median income of the counties with the highest emissions have among the highest median incomes in Maryland.
+In Charles County, which has the most emissions, median income is about $109,905. Anne Arundel County's median income is about $109,958 and Prince George's is about $92,513.
+
+ 
+```{r}
+#how best to display this? Maybe a chart? dot plot?
+md_2022_emissions_with_income |> 
+  arrange(desc(total_emissions))
+
+
+write_csv(md_2022_emissions_with_income, "data/md_2022_emissions_with_income.csv")  
+
+```
+
+```{r}
+ggplot(md_2022_emissions_with_income, aes(x = max, y = total_emissions)) +
+  geom_point(color = "blue", size = 3) +
+  labs(title = "Total emissions and median income", x = "Income", y = "GHG") +
+  geom_text(aes(label = county_name), check_overlap = TRUE)
+
+```
+
+
+```{r}
+md_counties <- counties |>
+  filter(STATEFP == "24") |>
+  clean_names() |>
+  arrange(namelsad)
+
+
+locations_map <- md_counties |>
+  arrange() |>
+  bind_cols(md_2022_emissions_with_income)
+
+mapview(locations_map, zcol="total_emissions")
+
+```
+
+
+
+#5. What industries emit the most greenhouse gases in Maryland? 
+General Stationary Fuel Combustion Sources= 16,384,801
+Municipal Solid Waste Landfills= 884,420
+Petroleum and Natural Gas Systems= 1,466,486
+Electricity Generation= 10,636,599
+Suppliers of Natural Gas/Liquids= 177,591
+Suppliers of Carbon Dioxide= 1,406,085
+Cement Production= 3,366,799
+
+See our chart at: https://datawrapper.dwcdn.net/unfwg/1/
+In Maryland, the fuel (42%), electricity (27%) and cement production (17%) industries produced the most emissions in 2022.
+
+
+```{r}
+Fuel<- md_emissions2022 |>
+  filter(str_detect(subparts, "C")) 
+ 
+
+```
+
+
+```{r}
+Landfills<- md_emissions2022 |>
+  filter(str_detect(subparts, "HH")) 
+  
+
+```
+
+```{r}
+Petsystems<- md_emissions2022 |>
+  filter(str_detect(subparts, "W"))
+ 
+```
+
+```{r}
+Electricity<- md_emissions2022 |>
+  filter(str_detect(subparts, "D")) 
+ 
+```
+
+```{r}
+carbon<- md_emissions2022 |>
+  filter(str_detect(subparts, "PP")) 
+```
+
+
+```{r}
+cement<- md_emissions2022 |>
+  filter(str_detect(subparts, "H")) 
+ 
+```
+
+
+```{r}
+#join all results by totals
+total_fuel <- Fuel %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "fuel")
+total_landfills <- Landfills %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "landfill")
+total_petsystems <- Petsystems %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "pet systems")
+total_electricity <- Electricity %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "electricity")
+total_carbon <- carbon %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "carbon")
+total_cement <- cement %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "cement")
+total_natgas <-Natgas %>% summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE)) %>% 
+             mutate(source = "natural gas")
+
+combined_totals <- bind_rows(total_fuel, total_landfills, total_petsystems, total_electricity, total_carbon, total_cement, total_natgas)
+
+```
+
+
+```{r}
+write_csv(combined_totals, "data/combined_totals.csv")  
+```
+
