@@ -21,11 +21,21 @@ Datasets come from: https://www.epa.gov/ghgreporting/data-sets
 Deliverable 2:
 Loads and cleans the core data set to prepare for analysis. 
 
-Shows basic exploratory analysis to demonstrate an understanding of the dataset, including the number of rows and columns, any obvious limitations or flaws and any reasons why it might not be able to answer the questions you've posed last week.
--- We have loaded national and state data from EPA and census data. Based on our questions, we believe we have the data needed. We also may be interested in exploring additonal features of the FLIGHT dashboard.
+We have loaded national and state data from EPA and census data. Based on our questions, we believe we have the data needed. We also may be interested in exploring additonal features of the FLIGHT dashboard.
 
 Describe the limits of the data in terms of timeframe, what is and is not included and any codes or other information you'd need to find definitions for, and what you've done to better define it.
+-- https://www.epa.gov/ghgreporting/resources-subpart-ghg-reporting shows the codes of the subparts
 -- We found a good glossary (https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator) that translates the amount of emissions into real world effects.
+
+Deliverable 3:
+At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. 
+
+Deliverable 4:
+Shows a draft of data notebook in which you demonstrate substantial progress on the questions you set out to answer at the beginning of the project. This means you should have started on each of them, but you may not have finished.
+Has narrative for your code that explains each of your questions, your findings so far and what you do and don't know as a result of them.
+
+Identifies your most newsworthy finding so far and explain why it is.
+We think we it's newsworthy and worth investigating the clump of superfund sites in Cecil County, centered around Elkton, Maryland. We also wonder why there was a dip in emissions in 2017. (The dip during covid made sense.)
 
 ## Load libraries and establish settings
 
@@ -93,7 +103,7 @@ superfund_fixed <- read_csv("data/superfund-fixed.csv", skip = 10)
 
 ```
 
-# CLEAN
+# CLEAN and load all years of data. We made sure all values are consistent including addressing the Baltimore County/ Baltimore City issue and capitalization. We've removed duplicates.
 ```{r}
 
 md_emissions2022 <- md_emissions2022 |> 
@@ -294,14 +304,15 @@ glimpse(national_emissions2022)
 
 #ANALYSIS
 
-Turn in, via GitHub, a draft of the data notebook you will produce for this project. You should work on this notebook together, but everyone needs to upload a copy to their own GitHub repo and turn in a link for grading. At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. The more you have finished, the more feedback I'll be able to give you. If you are having trouble with a question or thinking about changing/adding a question, let me know that in your notebook, too.
-
 
 #1. How do greenhouse gas emissions in MD compare/ rank nationally? 
 
-Maryland is 37th in the ranking of all states and territories with Texas having the most emissions in 2022 and total facilities emitting greenhouse gas and DC having the least emissions and the Virgin Islands having the fewest facilities.
+Maryland is 37th in the ranking of all states and territories with Texas having the most direct emissions in 2022 and total facilities emitting greenhouse gas and DC having the least emissions and the Virgin Islands having the fewest facilities.
+
 
 ```{r}
+
+#group by state and count
 national_filtered <- national_emissions2022 |>
    group_by(State) |>  
   summarise(count=n()) |>
@@ -310,6 +321,7 @@ national_filtered <- national_emissions2022 |>
 
 ```{r}
 #chat gpt helped troubleshoot error
+#we chose direct emissions because it provided the most accurate and full picture
 total_emissions_per_state <- national_emissions2022 %>%
   group_by(State) %>%
   summarise(total_emissions = sum(`2022 Total reported direct emissions`, na.rm = TRUE)) |>
@@ -329,6 +341,7 @@ Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMP
 
 A couple of the most interesting finds were University of Maryland that came in 18th out of 52 and Holcim (US), Inc. which is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but they are the 9th GHG emitter. The counties that have no emissions are Queen Anne's, Somerset, St. Mary's and Kent counties.
 
+In Charles county, where direct emissions totaled 2,843,429 metric tons for 2022, it would take 791 wind turbines running for a year to offset. Source: https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator
 
 ```{r}
 locations_md <- md_emissions2022 |> 
@@ -341,16 +354,19 @@ counties <- counties()
 ```
 
 ```{r}
+#calculating most emisions and arranging to compare 2022 and a decade before 2012
 md_emissions2022 |> 
   arrange(desc(ghg_quantity))
 
-#I only found 67 in this dataset. Check? And UMD was 19th out of 67 so still not great
+
 md_emissions2012 |> 
   arrange(desc(total_reported_direct_emissions))
 
 ```
 
 ```{r}
+#analyzing all years
+
 #total number of emissions to join by row
 totals_2022 <- md_emissions2022 |> 
   summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
@@ -399,6 +415,7 @@ write_csv(combined_years,"data/combined_years.csv")
 ```
 
 ```{r}
+#writing a file to use for datawrapper
 combined_emissions <- bind_rows(md_emissions2022, md_emissions2021)
 
 write_csv(combined_emissions,"data/combined_emissions1.csv")
@@ -407,9 +424,10 @@ write_csv(combined_emissions,"data/combined_emissions1.csv")
 
 #3. How do the hotspots of emissions match with sites being supervised by state and federal environmental authorities? 
 
-The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. 
+The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. We suspect there's a good story here about why this is true. In addition to groundwater contamination from an old fireworks production facility, we see solvent recycling operations and industrial waste disposal activities took place at a former sand and gravel quarry.
 
 ```{r}
+#analyzing superfund to show those in the final list of sites being supervised by environmental officials.
 superfund_fixed_filtered |> 
   filter(str_detect(npl_status, "Final NPL")) |> 
   group_by(county) |> 
@@ -431,7 +449,7 @@ In Charles County, which has the most emissions, median income is about $109,905
 
  
 ```{r}
-#how best to display this? Maybe a chart? dot plot?
+#we arranged from most to least to see how the variable median income would affect the data
 md_2022_emissions_with_income |> 
   arrange(desc(total_emissions))
 
@@ -441,6 +459,7 @@ write_csv(md_2022_emissions_with_income, "data/md_2022_emissions_with_income.csv
 ```
 
 ```{r}
+#this wasn't the best visualization but we made others
 ggplot(md_2022_emissions_with_income, aes(x = max, y = total_emissions)) +
   geom_point(color = "blue", size = 3) +
   labs(title = "Total emissions and median income", x = "Income", y = "GHG") +
@@ -450,6 +469,7 @@ ggplot(md_2022_emissions_with_income, aes(x = max, y = total_emissions)) +
 
 
 ```{r}
+#we made a map visualization of median income and total emissions per county using mapview
 md_counties <- counties |>
   filter(STATEFP == "24") |>
   clean_names() |>
@@ -476,10 +496,13 @@ Suppliers of Carbon Dioxide= 1,406,085
 Cement Production= 3,366,799
 
 See our chart at: https://datawrapper.dwcdn.net/unfwg/1/
+
 In Maryland, the fuel (42%), electricity (27%) and cement production (17%) industries produced the most emissions in 2022.
 
 
 ```{r}
+#we filtered all data for each industry, joined all results by totals and wrote a csv file to use datawrapper
+# https://www.epa.gov/ghgreporting/resources-subpart-ghg-reporting shows the codes of the subparts
 Fuel<- md_emissions2022 |>
   filter(str_detect(subparts, "C")) 
  
