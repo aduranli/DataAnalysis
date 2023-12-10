@@ -37,6 +37,27 @@ Has narrative for your code that explains each of your questions, your findings 
 Identifies your most newsworthy finding so far and explain why it is.
 We think we it's newsworthy and worth investigating the clump of superfund sites in Cecil County, centered around Elkton, Maryland. We also wonder why there was a dip in emissions in 2017. (The dip during covid made sense.)
 
+Deliverable 5:
+
+Be sure to describe your most important and newsworthy findings to me as if you were pitching a story about them, including some discussion of what your reporting plans would entail - what would you need/want to do to make this a better story?
+
+We see the potential for several stories:
+
+Progress:  There were 67 total facilities emitting greenhouse gas in 2012. A decade later in 2022, there were 52 total facilities emitting greenhouse gas, according to the EPA. The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point. Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions. 
+We'd want to interview state and federal environmental officials about the trends, in particular the dip in 2017.
+
+Sidebar: Visualization by industry https://datawrapper.dwcdn.net/unfwg/1/
+
+Sidebar: The University of Maryland has declared its students and faculty are working to address the grand challenges of the world, including climate change. But the university itself came in 18th out of 52. What is the univeristy doing to address its own environmental impacts? We'd want to interview university officials and also local activists.
+
+Sidebar: Holcim (US), Inc. is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but ranks as the 9th GHG emitter in Maryland. What does the company do and how does it respond to the seeming contradiction?
+
+Income: Map visualization with county income
+
+Healthier Counties: There were no direct greeenhouse emitters in Queen Anne's, Somerset, St. Mary's and Kent counties. Are the residents there healthier as a result? We'll talk to public health officials about whether there are lower asthma rates or other health problems associated with emissions like respiratory and cardiovascular diseases?
+
+Superunds: The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. We suspect there's a good story here about why this is true. In addition to groundwater contamination from an old fireworks production facility, we see solvent recycling operations and industrial waste disposal activities took place at a former sand and gravel quarry. What do locals say about this? Do elected officials say there's a reason historically for the superfund locations? 
+
 ## Load libraries and establish settings
 
 #IMPORT
@@ -99,6 +120,7 @@ md_county_income <- get_acs(geography = "county",
   mutate(min = estimate - moe, max = estimate + moe) |> 
   glimpse()
 
+#loading in superfund data
 superfund_fixed <- read_csv("data/superfund-fixed.csv", skip = 10)
 
 ```
