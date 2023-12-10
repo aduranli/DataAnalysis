@@ -46,7 +46,7 @@ We see the potential for several stories:
 Progress:  There were 67 total facilities emitting greenhouse gas in 2012. A decade later in 2022, there were 52 total facilities emitting greenhouse gas, according to the EPA. The top emitters in 2012 were Brandon Shores LLC, Morgantown and Chalk Point. Whereas in 2022, the top emitters were "BRANDON SHORES LLC", "LEHIGH CEMENT COMPANY LLC" and "KEYS ENERGY CENTER." A decade later, and Brandon Shores LLC (a power plant) is still the top emitter. In 2022, it emitted 2,219,520 metric tons of Greenhouse Gases and in 2012, it emitted 4,854,518 metric tons (rounded to nearest whole number), so that gives us a 54% drop in emissions. 
 We'd want to interview state and federal environmental officials about the trends, in particular the dip in 2017.
 
-Sidebar: Visualization by industry https://datawrapper.dwcdn.net/unfwg/1/
+Sidebar: Visualization by industry https://datawrapper.dwcdn.net/dvj2R/1/
 
 Sidebar: The University of Maryland has declared its students and faculty are working to address the grand challenges of the world, including climate change. But the university itself came in 18th out of 52. What is the univeristy doing to address its own environmental impacts? We'd want to interview university officials and also local activists.
 
@@ -54,7 +54,7 @@ Sidebar: Holcim (US), Inc. is a building material manufacturer that is supposed 
 
 Income: County income in relation to GHG emissions
 
-We could use our findings of how the wealthiest counties emit the most, tying it with a global story on how the world's richest 1% emit more than two thirds of the world's poorest. This could be a local angle on that story, of how minorities and those with lower incomes suffer more fromt the efefcts of pollution and climate change but emit the least.
+We could use our findings of how wealthier counties emit the most, tying it with a global story on how the world's richest 1% emit more than two thirds of the world's poorest. This could be a local angle on that story, of how minorities and those with lower incomes suffer more from the effects of pollution and climate change but emit the least. We would speak to the EPA, MD government officials, environmentalist groups. Interestingly enough, the two wealthiest counties (based on median income) emit relatively little, so we could do some research into what laws and practices they have in place to limit emissions.
 
 Healthier Counties: There were no direct greenhouse emitters in Queen Anne's, Somerset, St. Mary's and Kent counties. Are the residents there healthier as a result? We'll talk to public health officials about whether there are lower asthma rates or other health problems associated with emissions like respiratory and cardiovascular diseases?
 
@@ -378,13 +378,13 @@ counties <- counties()
 ```
 
 ```{r}
-#calculating most emisions and arranging to compare 2022 and a decade before 2012
+#calculating most emissions and arranging to compare 2022 and a decade before 2012
 md_emissions2022 |> 
   arrange(desc(ghg_quantity))
 
 
 md_emissions2012 |> 
-  arrange(desc(total_reported_direct_emissions))
+  arrange(desc(ghg_quantity))
 
 ```
 
@@ -519,7 +519,7 @@ Suppliers of Natural Gas/Liquids= 177,591
 Suppliers of Carbon Dioxide= 1,406,085
 Cement Production= 3,366,799
 
-See our chart at: https://datawrapper.dwcdn.net/unfwg/1/
+See our chart at: https://datawrapper.dwcdn.net/dvj2R/1/
 
 In Maryland, the fuel (42%), electricity (27%) and cement production (17%) industries produced the most emissions in 2022.
 
@@ -527,7 +527,7 @@ In Maryland, the fuel (42%), electricity (27%) and cement production (17%) indus
 ```{r}
 #we filtered all data for each industry, joined all results by totals and wrote a csv file to use datawrapper
 # https://www.epa.gov/ghgreporting/resources-subpart-ghg-reporting shows the codes of the subparts
-Fuel<- md_emissions2022 |>
+fuel<- md_emissions2022 |>
   filter(str_detect(subparts, "C")) 
  
 
@@ -535,20 +535,20 @@ Fuel<- md_emissions2022 |>
 
 
 ```{r}
-Landfills<- md_emissions2022 |>
+landfills<- md_emissions2022 |>
   filter(str_detect(subparts, "HH")) 
   
 
 ```
 
 ```{r}
-Petsystems<- md_emissions2022 |>
+petsystems<- md_emissions2022 |>
   filter(str_detect(subparts, "W"))
  
 ```
 
 ```{r}
-Electricity<- md_emissions2022 |>
+electricity<- md_emissions2022 |>
   filter(str_detect(subparts, "D")) 
  
 ```
@@ -565,22 +565,28 @@ cement<- md_emissions2022 |>
  
 ```
 
+```{r}
+natgas <- md_emissions2022 |>
+  filter(str_detect(subparts, "NN")) 
+```
+
+
 
 ```{r}
 #join all results by totals
-total_fuel <- Fuel  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
+total_fuel <- fuel  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "fuel")
-total_landfills <- Landfills  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
+total_landfills <- landfills  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "landfill")
-total_petsystems <- Petsystems  |> summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
+total_petsystems <- petsystems  |> summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "pet systems")
-total_electricity <- Electricity  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
+total_electricity <- electricity  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "electricity")
 total_carbon <- carbon |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "carbon")
 total_cement <- cement  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "cement")
-total_natgas <-Natgas  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
+total_natgas <- natgas  |>  summarise(total_ghg = sum(ghg_quantity, na.rm = TRUE))  |>  
              mutate(source = "natural gas")
 
 combined_totals <- bind_rows(total_fuel, total_landfills, total_petsystems, total_electricity, total_carbon, total_cement, total_natgas)
