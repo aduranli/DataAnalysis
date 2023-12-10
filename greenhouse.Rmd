@@ -5,7 +5,7 @@ date: "2023-Fall"
 output: html_document
 ---
 
-Intro: Given the ambitious goals of Maryland officials to reduce greenhouse gas emissions (by 60 percent by 2031), we propose to examine EPA data to answer fundamental questions:
+##Intro: Given the ambitious goals of Maryland officials to reduce greenhouse gas emissions (by 60 percent by 2031), we propose to examine EPA data to answer fundamental questions:
 
 1. How do greenhouse gas emissions in MD compare/ rank nationally? 
 2. What are the locations of top greenhouse gas emitters?
@@ -18,7 +18,7 @@ We believe these questions are newsworthy because they address some of the thing
 Datasets come from: https://www.epa.gov/ghgreporting/data-sets
 
  
-Deliverable 2:
+##Deliverable 2:
 Loads and cleans the core data set to prepare for analysis. 
 
 We have loaded national and state data from EPA and census data. Based on our questions, we believe we have the data needed. We also may be interested in exploring additonal features of the FLIGHT dashboard.
@@ -27,17 +27,17 @@ Describe the limits of the data in terms of timeframe, what is and is not includ
 -- https://www.epa.gov/ghgreporting/resources-subpart-ghg-reporting shows the codes of the subparts
 -- We found a good glossary (https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator) that translates the amount of emissions into real world effects.
 
-Deliverable 3:
+##Deliverable 3:
 At a minimum, your data notebook should load the data you'll use with this project and have demonstrated work on at least two of the questions you are seeking to answer. 
 
-Deliverable 4:
+##Deliverable 4:
 Shows a draft of data notebook in which you demonstrate substantial progress on the questions you set out to answer at the beginning of the project. This means you should have started on each of them, but you may not have finished.
 Has narrative for your code that explains each of your questions, your findings so far and what you do and don't know as a result of them.
 
 Identifies your most newsworthy finding so far and explain why it is.
 We think we it's newsworthy and worth investigating the clump of superfund sites in Cecil County, centered around Elkton, Maryland. We also wonder why there was a dip in emissions in 2017. (The dip during covid made sense.)
 
-Deliverable 5:
+##Deliverable 5:
 
 Be sure to describe your most important and newsworthy findings to me as if you were pitching a story about them, including some discussion of what your reporting plans would entail - what would you need/want to do to make this a better story?
 
@@ -52,11 +52,13 @@ Sidebar: The University of Maryland has declared its students and faculty are wo
 
 Sidebar: Holcim (US), Inc. is a building material manufacturer that is supposed to be a "global leader in sustainable construction" and works to "make greener infrastructure" but ranks as the 9th GHG emitter in Maryland. What does the company do and how does it respond to the seeming contradiction?
 
-Income: Map visualization with county income
+Income: County income in relation to GHG emissions
 
-Healthier Counties: There were no direct greeenhouse emitters in Queen Anne's, Somerset, St. Mary's and Kent counties. Are the residents there healthier as a result? We'll talk to public health officials about whether there are lower asthma rates or other health problems associated with emissions like respiratory and cardiovascular diseases?
+We could use our findings of how the wealthiest counties emit the most, tying it with a global story on how the world's richest 1% emit more than two thirds of the world's poorest. This could be a local angle on that story, of how minorities and those with lower incomes suffer more fromt the efefcts of pollution and climate change but emit the least.
 
-Superunds: The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. We suspect there's a good story here about why this is true. In addition to groundwater contamination from an old fireworks production facility, we see solvent recycling operations and industrial waste disposal activities took place at a former sand and gravel quarry. What do locals say about this? Do elected officials say there's a reason historically for the superfund locations? 
+Healthier Counties: There were no direct greenhouse emitters in Queen Anne's, Somerset, St. Mary's and Kent counties. Are the residents there healthier as a result? We'll talk to public health officials about whether there are lower asthma rates or other health problems associated with emissions like respiratory and cardiovascular diseases?
+
+Superfunds: The most superfunds in Maryland are located in Cecil County. Interestingly enough, three of those superfunds in Cecil County are in the town of Elkton. We suspect there's a good story here about why this is true. In addition to groundwater contamination from an old fireworks production facility, we see solvent recycling operations and industrial waste disposal activities took place at a former sand and gravel quarry. What do locals say about this? Do elected officials say there's a reason historically for the superfund locations? 
 
 ## Load libraries and establish settings
 
